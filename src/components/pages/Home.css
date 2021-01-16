@@ -1,0 +1,17 @@
+hr.introduction-resume {
+	display: block;
+	border: 3px solid rgba(220, 242, 139, 0.817);
+	width: 90vw;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+.above-introduction-resume {
+	display: block;
+	height: 60px;
+}
+
+.below-introduction-resume {
+	display: block;
+	height: 100px;
+}
