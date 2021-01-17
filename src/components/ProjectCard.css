@@ -21,11 +21,21 @@
 	display: flex;
 	color: coral;
 	justify-content: center;
+	font-size: 16px;
+	transition: all 100ms;
+	line-height: 20px;
+}
+
+.link-to-project:hover {
+	font-size: 18px;
+	transition: all 100ms;
 }
 
 .project-image {
 	display: block;
+	object-fit: cover;
 	width: 23vw;
+	height: 18vw;
 	margin: 5px auto;
 }
 

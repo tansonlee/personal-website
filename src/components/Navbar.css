@@ -7,7 +7,7 @@
 
 .navbar {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	min-height: 10vh;
 	background-color: rgba(159, 159, 159, 0.97);
@@ -35,12 +35,17 @@
 }
 
 .small-link {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 200;
+	transition: all 200ms;
+}
+
+.small-link:hover {
+	font-size: 30px;
+	transition: all 200ms;
 }
 
 .big-link {
-	font-size: 28px;
-	font-weight: 100;
-	display: inline;
+	font-size: 36px;
+	margin-left: 60px;
 }

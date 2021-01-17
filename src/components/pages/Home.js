@@ -1,7 +1,7 @@
 import "./Home.css";
-import Introduction from "../Introduction";
-import Resume from "../Resume";
-import IntroductionProjects from "../IntroductionProjects";
+import Introduction from "../home-components/Introduction";
+import Resume from "../home-components/Resume";
+import IntroductionProjects from "../home-components/IntroductionProjects";
 
 const Home = () => {
 	return (

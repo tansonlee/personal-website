@@ -1,6 +1,16 @@
 import { Link } from "react-router-dom";
 import "./IntroductionProjects.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../ProjectCard";
+import {
+	MachineLanguage,
+	SortingAlgorithms,
+	LindenmayerSystems,
+	SudokuSolver,
+	Boid,
+	BST,
+	FunctionalList,
+	RandomData,
+} from "../../project-data/data";
 
 const IntroductionProjects = () => {
 	return (
@@ -15,12 +25,14 @@ const IntroductionProjects = () => {
 				</p>
 			</div>
 			<div className="introduction-project-card-wrapper">
-				<ProjectCard />
-				<ProjectCard />
-				<ProjectCard />
-				<ProjectCard />
-				<ProjectCard />
-				<ProjectCard />
+				<ProjectCard {...MachineLanguage} />
+				<ProjectCard {...SortingAlgorithms} />
+				<ProjectCard {...LindenmayerSystems} />
+				<ProjectCard {...SudokuSolver} />
+				<ProjectCard {...Boid} />
+				<ProjectCard {...BST} />
+				<ProjectCard {...FunctionalList} />
+				<ProjectCard {...RandomData} />
 			</div>
 		</>
 	);
