@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.projects-project-card-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-project-card-wrapper-wrapper {
+	width: 93vw;
+	margin: 0 auto;
+}
+
+.projects-header {
+	display: flex;
+	justify-content: center;
+	color: aliceblue;
+	font-size: 40px;
+	margin: 20px;
+	margin-top: 40px;
+	font-family: "Courier Prime", monospace;
+}
+
+.projects-description-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects-description {
+	display: inline;
+	color: aliceblue;
+	font-size: 18px;
+	padding: 15px 25px;
+	font-family: "Courier Prime", monospace;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 22px;
+}
+
+.projects-github-link {
+	/* text-decoration: none; */
+	color: aliceblue;
+	font-size: 20px;
+}
+
+.projects-github-link:hover {
+	font-size: 22px;
+}

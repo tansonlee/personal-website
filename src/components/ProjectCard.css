@@ -59,3 +59,28 @@
 .paragraph-descriptor {
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+	.project-image {
+		width: 36vw;
+		height: 32vw;
+	}
+
+	.introduction-project-wrapper {
+		width: 40vw;
+		padding: 12px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.project-image {
+		width: 80vw;
+		height: 72vw;
+	}
+
+	.introduction-project-wrapper {
+		width: 85vw;
+		padding: 12px;
+		margin: 70px auto;
+	}
+}

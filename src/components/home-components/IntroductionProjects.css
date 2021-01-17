@@ -2,10 +2,7 @@
 
 .introduction-project-card-wrapper {
 	display: grid;
-	/* width: 100vw; */
 	grid-template-columns: 1fr 1fr 1fr;
-	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
-	/* grid-template-columns: 35vw auto 35vw; fraction */
 }
 
 .introduction-project-card-wrapper-wrapper {
@@ -48,4 +45,24 @@
 
 .introduction-project-link:hover {
 	font-size: 22px;
+}
+
+@media screen and (max-width: 900px) {
+	.introduction-project-card-wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.introduction-project-card-wrapper-wrapper {
+		width: 95vw;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.introduction-project-card-wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.introduction-project-card-wrapper-wrapper {
+		width: 95vw;
+	}
 }
