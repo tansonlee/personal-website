@@ -11,7 +11,6 @@ function App() {
 			<div className="app-wrapper">
 				<Router>
 					<Navbar />
-					{/* <h1>Hello, World!</h1> */}
 
 					<Switch>
 						<Route path="/" exact component={Home} />

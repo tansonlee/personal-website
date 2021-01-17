@@ -11,7 +11,6 @@
 	align-items: center;
 	min-height: 10vh;
 	background-color: rgba(159, 159, 159, 0.97);
-	/* background-color: transparent; */
 	color: aliceblue;
 	position: sticky;
 	top: 0;
@@ -23,7 +22,6 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	list-style: none;
 }
 
 .link {
@@ -44,9 +42,5 @@
 .big-link {
 	font-size: 28px;
 	font-weight: 100;
-	display: flex;
-	justify-self: start;
-	/* align-items: center; */
-	align-items: left;
-	text-align: left;
+	display: inline;
 }

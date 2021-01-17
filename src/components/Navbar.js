@@ -7,19 +7,19 @@ const Navbar = () => {
 		<>
 			<nav className="navbar">
 				<Link className="link big-link" to="/">
-					<h3>Tanson Lee</h3>
+					Tanson Lee
 				</Link>
-				<div className="link-wrapper">
-					<Link className="link small-link" to="/">
-						Home
-					</Link>
-					<Link className="link small-link" to="/projects">
-						Projects
-					</Link>
-					<Link className="link small-link" to="/contact">
-						Contact
-					</Link>
-				</div>
+				{/* <div className="link-wrapper"> */}
+				<Link className="link small-link" to="/">
+					Home
+				</Link>
+				<Link className="link small-link" to="/projects">
+					Projects
+				</Link>
+				<Link className="link small-link" to="/contact">
+					Contact
+				</Link>
+				{/* </div> */}
 			</nav>
 		</>
 	);

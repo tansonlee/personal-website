@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .introduction-project-wrapper {
-	width: 300px;
+	width: 24vw;
 	background-color: rgb(62, 31, 172);
-	padding: 20px;
+	padding: 22px;
 	font-family: "Courier Prime", monospace;
-
-	margin: 20px;
+	margin: 25px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project-name {
@@ -19,22 +19,32 @@
 
 .link-to-project {
 	display: flex;
-	color: aliceblue;
+	color: coral;
 	justify-content: center;
 }
 
 .project-image {
 	display: block;
-	width: 280px;
+	width: 23vw;
 	margin: 5px auto;
 }
 
+.project-category {
+	margin-top: 20px;
+	color: rgb(205, 222, 177);
+}
+
 .project-description {
-	margin-top: 30px;
-	color: aliceblue;
+	margin-top: 10px;
+	/* color: aliceblue; */
+	color: rgb(183, 228, 214);
 }
 
 .learning-outcomes {
-	margin-top: 20px;
-	color: aliceblue;
+	margin-top: 10px;
+	color: rgb(218, 193, 235);
+}
+
+.paragraph-descriptor {
+	text-decoration: underline;
 }

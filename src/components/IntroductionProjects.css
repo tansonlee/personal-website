@@ -2,7 +2,9 @@
 
 .introduction-project-card-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+	width: 100vw;
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: 35vw auto 35vw; /* fraction*/
 }
 
 .introduction-project-header {
