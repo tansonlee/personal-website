@@ -1,6 +1,6 @@
 import "./Home.css";
 import Introduction from "../home-components/Introduction";
-import Resume from "../home-components/Resume";
+import HomeResume from "../home-components/HomeResume";
 import IntroductionProjects from "../home-components/IntroductionProjects";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
 			<hr className="introduction-resume" />
 			<div className="below-introduction-resume"></div>
 
-			<Resume />
+			<HomeResume />
 
 			<div className="above-introduction-resume"></div>
 			<hr className="introduction-resume" />

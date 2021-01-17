@@ -24,15 +24,17 @@ const IntroductionProjects = () => {
 					</Link>
 				</p>
 			</div>
-			<div className="introduction-project-card-wrapper">
-				<ProjectCard {...MachineLanguage} />
-				<ProjectCard {...SortingAlgorithms} />
-				<ProjectCard {...LindenmayerSystems} />
-				<ProjectCard {...SudokuSolver} />
-				<ProjectCard {...Boid} />
-				<ProjectCard {...BST} />
-				<ProjectCard {...FunctionalList} />
-				<ProjectCard {...RandomData} />
+			<div className="introduction-project-card-wrapper-wrapper">
+				<div className="introduction-project-card-wrapper">
+					<ProjectCard {...MachineLanguage} />
+					<ProjectCard {...SortingAlgorithms} />
+					<ProjectCard {...LindenmayerSystems} />
+					<ProjectCard {...SudokuSolver} />
+					<ProjectCard {...Boid} />
+					<ProjectCard {...BST} />
+					<ProjectCard {...FunctionalList} />
+					<ProjectCard {...RandomData} />
+				</div>
 			</div>
 		</>
 	);

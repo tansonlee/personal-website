@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .introduction-project-wrapper {
-	width: 24vw;
+	width: 25vw;
+	/* width: 100%; */
 	background-color: rgb(62, 31, 172);
 	padding: 22px;
 	font-family: "Courier Prime", monospace;

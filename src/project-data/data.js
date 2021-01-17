@@ -27,7 +27,7 @@ export const LindenmayerSystems = {
 	link: "https://github.com/tansonlee/l-systems",
 	image:
 		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
-	category: "Lindenmayer System Fractals",
+	category: "Algorithms",
 	description:
 		"I rendered over 25 fractals patterns using the Lindenmayer System method.",
 	outcomes: "Algorithms, JSON Data Format, Fractal Patterns.",

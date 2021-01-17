@@ -1,9 +1,8 @@
-import "./Resume.css";
+import "./ResumeCard.css";
 
-const Resume = () => {
+const ResumeCard = () => {
 	return (
 		<>
-			<h2 className="resume-header">Resume</h2>
 			<div className="resume-wrapper">
 				<h2>Tanson Lee</h2>
 				<h3>Skills</h3>
@@ -67,4 +66,4 @@ const Resume = () => {
 	);
 };
 
-export default Resume;
+export default ResumeCard;

@@ -29,11 +29,25 @@
 .media-link-wrapper {
 	display: flex;
 	justify-content: center;
+	height: 130px;
 }
 
 .media-link {
 	margin: 10px;
 	margin-top: 20px;
+}
+
+.media-icon {
+	color: coral;
+	width: 100px;
+	height: auto;
+	transition: all 100ms;
+}
+
+.media-icon:hover {
+	width: 120px;
+	height: auto;
+	transition: all 100ms;
 }
 
 .icon-description {

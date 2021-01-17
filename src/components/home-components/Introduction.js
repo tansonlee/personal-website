@@ -14,7 +14,7 @@ const Introduction = () => {
 			</p>
 
 			<div className="media-link-wrapper">
-				<IconContext.Provider value={{ color: "coral", size: "80px" }}>
+				<IconContext.Provider value={{ className: "media-icon" }}>
 					<a
 						className="media-link"
 						href="https://github.com/tansonlee"

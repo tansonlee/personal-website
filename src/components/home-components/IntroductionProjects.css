@@ -2,9 +2,15 @@
 
 .introduction-project-card-wrapper {
 	display: grid;
-	width: 100vw;
-	/* grid-template-columns: 1fr 1fr 1fr; */
-	grid-template-columns: 35vw auto 35vw; /* fraction*/
+	/* width: 100vw; */
+	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+	/* grid-template-columns: 35vw auto 35vw; fraction */
+}
+
+.introduction-project-card-wrapper-wrapper {
+	width: 93vw;
+	margin: 0 auto;
 }
 
 .introduction-project-header {
@@ -31,10 +37,15 @@
 	font-family: "Courier Prime", monospace;
 	border: 1px solid white;
 	border-radius: 5px;
+	line-height: 22px;
 }
 
 .introduction-project-link {
 	/* text-decoration: none; */
 	color: aliceblue;
 	font-size: 20px;
+}
+
+.introduction-project-link:hover {
+	font-size: 22px;
 }
