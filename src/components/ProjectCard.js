@@ -12,7 +12,12 @@ const ProjectCard = ({
 		<>
 			<div className="introduction-project-wrapper">
 				<h3 className="project-name">{name}</h3>
-				<a className="link-to-project" href={link}>
+				<a
+					rel="noreferrer"
+					target="_blank"
+					className="link-to-project"
+					href={link}
+				>
 					Link to Project
 				</a>
 				<img className="project-image" src={image} alt={name} />

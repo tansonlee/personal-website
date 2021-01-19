@@ -5,23 +5,36 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: aliceblue;
+	color: rgb(231, 253, 255);
 	padding: 10px;
 	padding-top: 20vh;
 	margin: 10px;
 	font-size: 90px;
 	font-weight: 300;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.software-engineer {
+	font-family: "Courier Prime", monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(51, 251, 12);
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 30px;
 }
 
 .self-description {
 	font-family: "Courier Prime", monospace;
 	margin: 0 auto;
 	width: 60vw;
-	color: antiquewhite;
+	color: rgb(231, 251, 255);
 	text-align: center;
 	padding: 20px;
 	font-size: 20px;
-	background-color: rgba(64, 103, 103, 0.673);
+	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 8px;
 	box-shadow: 1px 1px 5px 1px black;
 }
@@ -56,4 +69,37 @@
 	color: aliceblue;
 	text-align: center;
 	font-size: 16px;
+}
+
+/* blinking cursor https://codepen.io/delgar/pen/rvRvZM*/
+#blinking-cursor {
+	background: rgb(51, 251, 12);
+	line-height: 17px;
+	margin-left: 10px;
+	margin-bottom: 4px;
+	animation: blink 1s infinite;
+	width: 15px;
+	height: 25px;
+}
+
+@keyframes blink {
+	0% {
+		background: rgba(255, 255, 255, 0);
+	}
+
+	35% {
+		background: rgba(255, 255, 255, 0);
+	}
+
+	50% {
+		background: lime;
+	}
+
+	85% {
+		background: lime;
+	}
+
+	100% {
+		background: rgba(255, 255, 255, 0);
+	}
 }

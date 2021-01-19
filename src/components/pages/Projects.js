@@ -20,6 +20,8 @@ function Projects() {
 				<p className="projects-description">
 					All projects can be found on my GitHub here:{" "}
 					<a
+						rel="noreferrer"
+						target="_blank"
 						className="projects-github-link"
 						href="https://github.com/tansonlee"
 					>

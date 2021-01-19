@@ -6,6 +6,10 @@ const Introduction = () => {
 	return (
 		<>
 			<h1 className="name">Tanson Lee.</h1>
+			<div className="software-engineer">
+				{" "}
+				&gt; COMPUTER SCIENCE <div id="blinking-cursor"></div>{" "}
+			</div>
 			<p className="self-description">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
 				facere quibusdam magni est dolore necessitatibus atque neque,
@@ -16,6 +20,8 @@ const Introduction = () => {
 			<div className="media-link-wrapper">
 				<IconContext.Provider value={{ className: "media-icon" }}>
 					<a
+						rel="noreferrer"
+						target="_blank"
 						className="media-link"
 						href="https://github.com/tansonlee"
 					>
@@ -23,6 +29,8 @@ const Introduction = () => {
 						<p className="icon-description">GitHib</p>
 					</a>
 					<a
+						rel="noreferrer"
+						target="_blank"
 						className="media-link"
 						href="https://linkedin.com/in/tanson-lee"
 					>

@@ -10,8 +10,7 @@
 	justify-content: space-between;
 	align-items: center;
 	min-height: 10vh;
-	background-color: rgba(159, 159, 159, 0.97);
-	color: aliceblue;
+	background-color: rgb(41, 50, 65, 0.93);
 	position: sticky;
 	top: 0;
 	z-index: 999;
@@ -22,12 +21,13 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin-right: 30px;
 }
 
 .link {
 	text-decoration: none;
 	font-family: "Courier Prime", monospace;
-	color: aliceblue;
+	color: rgb(227, 252, 255);
 }
 
 .link:hover {
