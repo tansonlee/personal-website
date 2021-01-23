@@ -1,13 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
-.projects-project-card-wrapper {
+/* .projects-project-card-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.projects-project-card-wrapper {
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 30px;
 }
 
-.projects-project-card-wrapper-wrapper {
+/* .projects-project-card-wrapper-wrapper {
 	width: 93vw;
 	margin: 0 auto;
+} */
+
+.projects-project-card-wrapper-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .projects-header {
@@ -29,20 +43,22 @@
 .projects-description {
 	display: inline;
 	color: aliceblue;
-	font-size: 18px;
-	padding: 15px 25px;
-	font-family: "Courier Prime", monospace;
+	font-size: 20px;
+	padding: 12px 24px;
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
 	border: 1px solid white;
 	border-radius: 5px;
 	line-height: 22px;
+	margin-bottom: 40px;
 }
 
 .projects-github-link {
-	/* text-decoration: none; */
-	color: aliceblue;
+	color: coral;
 	font-size: 20px;
 }
 
 .projects-github-link:hover {
-	font-size: 22px;
+	font-size: 21px;
 }

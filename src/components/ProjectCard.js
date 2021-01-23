@@ -21,18 +21,16 @@ const ProjectCard = ({
 					Link to Project
 				</a>
 				<img className="project-image" src={image} alt={name} />
-				<p className="project-category">
+				{/* <p className="project-category">
 					<span className="paragraph-descriptor">Category:</span>{" "}
 					{category}
-				</p>
+				</p> */}
 				<p className="project-description">
 					<span className="paragraph-descriptor">Descripton:</span>{" "}
 					{description}
 				</p>
 				<p className="learning-outcomes">
-					<span className="paragraph-descriptor">
-						Learning outcomes:
-					</span>{" "}
+					<span className="paragraph-descriptor">Topics:</span>{" "}
 					{outcomes}
 				</p>
 			</div>

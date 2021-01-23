@@ -10,6 +10,7 @@ import {
 	BST,
 	FunctionalList,
 	RandomData,
+	ParametricArt,
 } from "../../project-data/data";
 
 const IntroductionProjects = () => {
@@ -31,6 +32,7 @@ const IntroductionProjects = () => {
 					<ProjectCard {...LindenmayerSystems} />
 					<ProjectCard {...SudokuSolver} />
 					<ProjectCard {...Boid} />
+					<ProjectCard {...ParametricArt} />
 					<ProjectCard {...BST} />
 					<ProjectCard {...FunctionalList} />
 					<ProjectCard {...RandomData} />

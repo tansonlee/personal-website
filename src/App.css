@@ -5,3 +5,7 @@ body {
 .wrapper {
 	background-color: rgb(44, 44, 70);
 }
+
+.app-wrapper {
+	margin-bottom: 60px;
+}

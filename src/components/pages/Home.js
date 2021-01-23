@@ -12,13 +12,13 @@ const Home = () => {
 			<hr className="introduction-resume" />
 			<div className="below-introduction-resume"></div>
 
-			<HomeResume />
+			<IntroductionProjects />
 
 			<div className="above-introduction-resume"></div>
 			<hr className="introduction-resume" />
 			<div className="below-introduction-resume"></div>
 
-			<IntroductionProjects />
+			<HomeResume />
 		</>
 	);
 };

@@ -21,3 +21,22 @@ rgb(0, 160, 209)
 
 green lime
 rgb(135, 229, 164)
+
+deploy to github user page
+https://medium.com/@kishandth.sivapalasundaram/how-to-deploy-your-react-app-to-a-github-user-page-d4b925cf5543
+https://medium.com/@derekgc/deploy-a-react-app-on-github-user-page-25b6991dec87
+
+thresholds:
+* 700px
+* 580px
+* 480px
+* 370px
+
+
+featured projects:
+* my machine language
+* collision simulator
+* sudoku solver
+* Boid flocking
+* Maze generator
+* Parametric Art

@@ -1,24 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-.resume-wrapper {
-	background-color: rgb(226, 223, 227);
-	width: 60vw;
-	margin: 0 auto;
-	padding: 20px;
-	font-family: "Courier Prime", monospace;
-	box-shadow: 0px 0px 10px 2px black;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
 .resume-header {
 	display: flex;
 	justify-content: center;
-	color: aliceblue;
-	font-size: 40px;
+	color: rgb(255, 255, 255);
+	font-size: 60px;
 	margin: 20px;
 	margin-top: 40px;
 	font-family: "Courier Prime", monospace;
+	font-weight: 200;
 }
 
-.resume-wrapper > * {
-	margin: 14px;
+.resume-description {
+	display: table;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	color: aliceblue;
+	font-size: 18px;
+	padding: 15px 25px;
+	font-family: "Courier Prime", monospace;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 22px;
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
+}
+
+.link-to-resume {
+	/* text-decoration: none; */
+	color: coral;
+	font-size: 19px;
+	transition: all 100ms ease;
+}
+
+.link-to-resume:hover {
+	font-size: 20px;
+	transition: all 100ms ease;
+}
+
+@media only screen and (max-width: 700px) {
+	.resume-header {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.resume-description {
+		font-size: 16px;
+		padding: 12px 20px;
+		line-height: 20px;
+	}
+
+	.link-to-resume {
+		font-size: 17px;
+	}
+
+	.link-to-resume:hover {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.resume-header {
+		font-size: 40px;
+	}
+
+	.resume-description {
+		font-size: 14px;
+		padding: 12px 20px;
+		line-height: 20px;
+	}
+
+	.link-to-resume {
+		font-size: 15px;
+	}
+
+	.link-to-resume:hover {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.resume-header {
+		font-size: 30px;
+	}
+
+	.resume-description {
+		font-size: 12px;
+		padding: 10px 15px;
+		line-height: 18px;
+	}
+
+	.link-to-resume {
+		font-size: 13px;
+	}
+
+	.link-to-resume:hover {
+		font-size: 14px;
+	}
 }

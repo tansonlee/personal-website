@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
 .name {
 	font-family: "Courier Prime", monospace;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: rgb(231, 253, 255);
+	color: rgb(255, 255, 255);
 	padding: 10px;
 	padding-top: 20vh;
 	margin: 10px;
-	font-size: 90px;
+	font-size: 6em;
 	font-weight: 300;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	text-align: center;
 }
 
 .software-engineer {
@@ -27,16 +29,19 @@
 }
 
 .self-description {
-	font-family: "Courier Prime", monospace;
+	/* font-family: "Courier Prime", monospace; */
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
 	margin: 0 auto;
 	width: 60vw;
-	color: rgb(231, 251, 255);
+	color: rgba(255, 255, 255, 0.9);
 	text-align: center;
 	padding: 20px;
 	font-size: 20px;
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 8px;
-	box-shadow: 1px 1px 5px 1px black;
+	box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.5);
 }
 
 .media-link-wrapper {
@@ -54,13 +59,13 @@
 	color: coral;
 	width: 100px;
 	height: auto;
-	transition: all 100ms;
+	transition: all 100ms ease;
 }
 
 .media-icon:hover {
 	width: 120px;
 	height: auto;
-	transition: all 100ms;
+	transition: all 100ms ease;
 }
 
 .icon-description {
@@ -76,10 +81,10 @@
 	background: rgb(51, 251, 12);
 	line-height: 17px;
 	margin-left: 10px;
-	margin-bottom: 4px;
+	margin-bottom: 5px;
 	animation: blink 1s infinite;
 	width: 15px;
-	height: 25px;
+	height: 24px;
 }
 
 @keyframes blink {
@@ -101,5 +106,125 @@
 
 	100% {
 		background: rgba(255, 255, 255, 0);
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.name {
+		font-size: 5em;
+	}
+
+	.software-engineer {
+		font-size: 25px;
+		padding-bottom: 20px;
+	}
+
+	.self-description {
+		width: 80vw;
+		padding: 15px;
+		font-size: 15px;
+		border-radius: 8px;
+		box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.5);
+	}
+
+	.media-link-wrapper {
+		height: 90px;
+	}
+
+	.media-icon {
+		width: 80px;
+	}
+
+	.media-icon:hover {
+		width: 95px;
+	}
+
+	#blinking-cursor {
+		margin-left: 8px;
+		margin-bottom: 3px;
+		width: 10px;
+		height: 20px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.name {
+		padding-top: 30px;
+		font-size: 4em;
+	}
+
+	.software-engineer {
+		font-size: 20px;
+		padding-bottom: 15px;
+	}
+
+	#blinking-cursor {
+		margin-left: 6px;
+		margin-bottom: 3px;
+		width: 8px;
+		height: 16px;
+	}
+
+	.self-description {
+		width: 90vw;
+		padding: 10px;
+		font-size: 12px;
+		border-radius: 5px;
+	}
+
+	.media-link-wrapper {
+		height: 80px;
+	}
+
+	.media-icon {
+		width: 70px;
+	}
+
+	.media-icon:hover {
+		width: 85px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.name {
+		padding-top: 35px;
+		padding-bottom: 30px;
+		font-size: 3em;
+	}
+
+	.software-engineer {
+		font-size: 18px;
+		padding-bottom: 25px;
+	}
+
+	.self-description {
+		width: 95vw;
+		padding: 8px;
+		font-size: 16px;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+	.media-link-wrapper {
+		height: 70px;
+	}
+
+	.media-icon {
+		width: 60px;
+	}
+
+	.media-icon:hover {
+		width: 75px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.name {
+		padding-top: 25px;
+		font-size: 2.5em;
+	}
+
+	.self-description {
+		font-size: 14px;
 	}
 }

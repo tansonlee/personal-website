@@ -11,10 +11,9 @@ const Introduction = () => {
 				&gt; COMPUTER SCIENCE <div id="blinking-cursor"></div>{" "}
 			</div>
 			<p className="self-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-				facere quibusdam magni est dolore necessitatibus atque neque,
-				enim tempora nobis sint aliquam, numquam voluptatum officiis
-				expedita quidem, perspiciatis perferendis ullam.
+				I'm a Computer Science student at the University of Waterloo. I
+				built this website as an accessible way to showcase some of my
+				projects.
 			</p>
 
 			<div className="media-link-wrapper">

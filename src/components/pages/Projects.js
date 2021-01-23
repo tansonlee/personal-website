@@ -8,7 +8,19 @@ import {
 	Boid,
 	BST,
 	FunctionalList,
-	RandomData,
+	ParametricArt,
+	CollisionSimulator,
+	RunningApp,
+	Minesweeper,
+	ChaosGame,
+	FlowField,
+	TicTacToe,
+	GameOfLife,
+	RAM,
+	SoundWaves,
+	BinaryTrie,
+	MazeGenerator,
+	ADTinRAM,
 } from "../../project-data/data";
 
 function Projects() {
@@ -39,15 +51,19 @@ function Projects() {
 					<ProjectCard {...Boid} />
 					<ProjectCard {...BST} />
 					<ProjectCard {...FunctionalList} />
-					<ProjectCard {...RandomData} />
-					<ProjectCard {...MachineLanguage} />
-					<ProjectCard {...SortingAlgorithms} />
-					<ProjectCard {...LindenmayerSystems} />
-					<ProjectCard {...SudokuSolver} />
-					<ProjectCard {...Boid} />
-					<ProjectCard {...BST} />
-					<ProjectCard {...FunctionalList} />
-					<ProjectCard {...RandomData} />
+					<ProjectCard {...ParametricArt} />
+					<ProjectCard {...CollisionSimulator} />
+					<ProjectCard {...RunningApp} />
+					<ProjectCard {...Minesweeper} />
+					<ProjectCard {...ChaosGame} />
+					<ProjectCard {...FlowField} />
+					<ProjectCard {...TicTacToe} />
+					<ProjectCard {...GameOfLife} />
+					<ProjectCard {...RAM} />
+					<ProjectCard {...SoundWaves} />
+					<ProjectCard {...BinaryTrie} />
+					<ProjectCard {...MazeGenerator} />
+					<ProjectCard {...ADTinRAM} />
 				</div>
 			</div>
 		</>

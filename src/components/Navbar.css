@@ -9,7 +9,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	min-height: 10vh;
+	/* min-height: 10vh; */
+	height: 80px;
 	background-color: rgb(41, 50, 65, 0.93);
 	position: sticky;
 	top: 0;
@@ -27,7 +28,7 @@
 .link {
 	text-decoration: none;
 	font-family: "Courier Prime", monospace;
-	color: rgb(227, 252, 255);
+	color: rgb(255, 255, 255);
 }
 
 .link:hover {
@@ -37,12 +38,12 @@
 .small-link {
 	font-size: 24px;
 	font-weight: 200;
-	transition: all 200ms;
+	transition: all 200ms ease;
 }
 
 .small-link:hover {
 	font-size: 30px;
-	transition: all 200ms;
+	transition: all 100ms ease;
 }
 
 .big-link {

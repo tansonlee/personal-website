@@ -1,21 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
-.introduction-project-wrapper {
+/* .introduction-project-wrapper {
 	width: 25vw;
-	/* width: 100%; */
 	background-color: rgb(62, 31, 172);
 	padding: 22px;
 	font-family: "Courier Prime", monospace;
 	margin: 25px auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.introduction-project-wrapper {
+	font-family: "Courier Prime", monospace;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	padding: 25px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all 100ms ease;
+}
+
+.introduction-project-wrapper:hover {
+	transform: scale(1.03);
+	transition: all 100ms ease;
 }
 
 .project-name {
 	display: flex;
 	justify-content: center;
-	color: rgba(240, 248, 255, 0.927);
-	padding: 10px;
-	font-size: 24px;
+	color: rgba(255, 255, 255, 0.9);
+	padding-top: 8px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .link-to-project {
@@ -23,44 +41,56 @@
 	color: coral;
 	justify-content: center;
 	font-size: 16px;
-	transition: all 100ms;
+	transition: all 50ms ease;
 	line-height: 20px;
 }
 
 .link-to-project:hover {
 	font-size: 18px;
-	transition: all 100ms;
+	transition: all 100ms ease;
 }
 
 .project-image {
 	display: block;
 	object-fit: cover;
-	width: 23vw;
-	height: 18vw;
+	width: 100%;
+	box-sizing: border-box;
+	height: auto;
 	margin: 5px auto;
+	border-radius: 6px;
 }
 
 .project-category {
-	margin-top: 20px;
-	color: rgb(205, 222, 177);
+	margin-top: 40px;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 30px;
 }
 
 .project-description {
-	margin-top: 10px;
-	/* color: aliceblue; */
-	color: rgb(183, 228, 214);
+	margin-top: 30px;
+	font-family: "Roboto", sans-serif;
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
+	color: rgba(232, 230, 255, 0.85);
+	font-size: 18px;
 }
 
 .learning-outcomes {
 	margin-top: 10px;
-	color: rgb(218, 193, 235);
+	color: rgba(233, 255, 230, 0.85);
+	font-family: "Roboto", sans-serif;
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
+	font-size: 18px;
 }
 
 .paragraph-descriptor {
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
 	.project-image {
 		width: 36vw;
 		height: 32vw;
@@ -83,4 +113,4 @@
 		padding: 12px;
 		margin: 70px auto;
 	}
-}
+} */

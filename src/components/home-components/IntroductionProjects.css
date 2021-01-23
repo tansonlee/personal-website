@@ -1,37 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
-.introduction-project-card-wrapper {
+/* .introduction-project-card-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.introduction-project-card-wrapper {
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-gap: 40px;
 }
 
-.introduction-project-card-wrapper-wrapper {
+/* .introduction-project-card-wrapper-wrapper {
 	width: 93vw;
 	margin: 0 auto;
+} */
+.introduction-project-card-wrapper-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .introduction-project-header {
 	display: flex;
 	justify-content: center;
-	color: aliceblue;
-	font-size: 40px;
+	color: rgb(255, 255, 255);
+	font-size: 60px;
 	margin: 20px;
 	margin-top: 40px;
 	font-family: "Courier Prime", monospace;
+	font-weight: 200;
 }
 
 .intro-project-description-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 .introduction-project-description {
 	display: inline;
 	color: aliceblue;
-	font-size: 18px;
-	padding: 15px 25px;
-	font-family: "Courier Prime", monospace;
+	font-size: 20px;
+	padding: 12px 24px;
+	/* font-family: "Courier Prime", monospace; */
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
 	border: 1px solid white;
 	border-radius: 5px;
 	line-height: 22px;
@@ -39,15 +58,18 @@
 
 .introduction-project-link {
 	/* text-decoration: none; */
-	color: aliceblue;
-	font-size: 20px;
+	/* text-decoration: underline; */
+	color: coral;
+	font-size: 19px;
+	transition: all 100ms ease;
 }
 
 .introduction-project-link:hover {
-	font-size: 22px;
+	font-size: 21px;
+	transition: all 100ms ease;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
 	.introduction-project-card-wrapper {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -65,4 +87,4 @@
 	.introduction-project-card-wrapper-wrapper {
 		width: 95vw;
 	}
-}
+} */
