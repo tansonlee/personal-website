@@ -24,14 +24,15 @@
 	align-items: center;
 }
 
-.projects-header {
+.projects-page-header {
 	display: flex;
 	justify-content: center;
-	color: aliceblue;
-	font-size: 40px;
+	color: rgb(255, 255, 255);
+	font-size: 60px;
 	margin: 20px;
 	margin-top: 40px;
 	font-family: "Courier Prime", monospace;
+	font-weight: 200;
 }
 
 .projects-description-wrapper {

@@ -21,20 +21,30 @@ import {
 	BinaryTrie,
 	MazeGenerator,
 	ADTinRAM,
+	MarchingSquares,
+	HashTable,
+	DoublePendulum,
+	Pong,
+	Snake,
+	LinearRegression,
+	RayMarching,
+	RayCasting,
+	BarnsleyFern,
 } from "../../project-data/data";
 
 function Projects() {
 	return (
 		<>
-			<h1 className="projects-header">All Projects!</h1>
+			<h1 className="page-header">All Projects!</h1>
 
 			<div className="projects-description-wrapper">
-				<p className="projects-description">
+				{/* <p className="projects-description"> */}
+				<p className="description-text white-border">
 					All projects can be found on my GitHub here:{" "}
 					<a
 						rel="noreferrer"
 						target="_blank"
-						className="projects-github-link"
+						className="inline-link"
 						href="https://github.com/tansonlee"
 					>
 						GitHub
@@ -44,18 +54,18 @@ function Projects() {
 
 			<div className="projects-project-card-wrapper-wrapper">
 				<div className="projects-project-card-wrapper">
+					<ProjectCard {...Boid} />
+					<ProjectCard {...SudokuSolver} />
+					<ProjectCard {...ChaosGame} />
 					<ProjectCard {...MachineLanguage} />
 					<ProjectCard {...SortingAlgorithms} />
 					<ProjectCard {...LindenmayerSystems} />
-					<ProjectCard {...SudokuSolver} />
-					<ProjectCard {...Boid} />
 					<ProjectCard {...BST} />
 					<ProjectCard {...FunctionalList} />
 					<ProjectCard {...ParametricArt} />
 					<ProjectCard {...CollisionSimulator} />
 					<ProjectCard {...RunningApp} />
 					<ProjectCard {...Minesweeper} />
-					<ProjectCard {...ChaosGame} />
 					<ProjectCard {...FlowField} />
 					<ProjectCard {...TicTacToe} />
 					<ProjectCard {...GameOfLife} />
@@ -64,6 +74,15 @@ function Projects() {
 					<ProjectCard {...BinaryTrie} />
 					<ProjectCard {...MazeGenerator} />
 					<ProjectCard {...ADTinRAM} />
+					<ProjectCard {...MarchingSquares} />
+					<ProjectCard {...HashTable} />
+					<ProjectCard {...DoublePendulum} />
+					<ProjectCard {...Pong} />
+					<ProjectCard {...Snake} />
+					<ProjectCard {...LinearRegression} />
+					<ProjectCard {...RayMarching} />
+					<ProjectCard {...RayCasting} />
+					<ProjectCard {...BarnsleyFern} />
 				</div>
 			</div>
 		</>

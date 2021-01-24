@@ -19,13 +19,22 @@ SoundWaves
 BinaryTrie
 MazeGenerator
 ADTinRAM
+MarchingSquares
+HashTable
+DoublePendulum
+Pong
+Snake
+LinearRegression
+RayMarching
+RayCasting
+BarnsleyFern
 */
 
 export const MachineLanguage = {
 	name: "My Machine Language",
 	link: "https://github.com/tansonlee/machine-language",
 	image:
-		"https://github.com/tansonlee/website-images/blob/main/my_machine_language.png?raw=true",
+		"https://github.com/tansonlee/website-images/blob/main/my-machine-language.png?raw=true",
 	category: "Functional Programming",
 	description:
 		"I designed and implemented a turing-complete machine language in Python using functional programming techinques.",
@@ -83,7 +92,7 @@ export const BST = {
 	name: "Binary Search Tree",
 	link: "https://github.com/tansonlee/binary-search-tree",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/website-images/blob/main/bst.png?raw=true",
 	category: "Abstract Data Types",
 	description:
 		"An implementation of a binary search tree using functional programming techniques.",
@@ -95,7 +104,7 @@ export const FunctionalList = {
 	name: "Functional List",
 	link: "https://github.com/tansonlee/functional-list",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/website-images/blob/main/functional-list.png?raw=true",
 	category: "Functional Programming and Abstract Data Types",
 	description:
 		"Cons cell lists and abstract list functions as they are in functional programming languages like Haskell, Lisp, and Scheme.",
@@ -116,7 +125,7 @@ export const CollisionSimulator = {
 	name: "Collision Simulator",
 	link: "https://github.com/tansonlee/collision-simulator",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/collision-simulator/raw/main/assets/collision2.gif",
 	category: "",
 	description:
 		"Visualizes 1D/2D and elastic/inelastic collisions with an intuitive UI",
@@ -128,7 +137,7 @@ export const RunningApp = {
 	name: "Running App",
 	link: "https://github.com/tansonlee/running-app",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/website-images/blob/main/running-app.jpg?raw=true",
 	category: "",
 	description:
 		"A full stack running app that tracks and stores 4 running metrics.",
@@ -189,7 +198,7 @@ export const RAM = {
 	name: "Random Access Memory",
 	link: "https://github.com/tansonlee/ram",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/website-images/blob/main/RAM.png?raw=true",
 	category: "",
 	description: "An implementation of a RAM abstract data type.",
 	outcomes: "Data Abstraction, Functional Programming, Modular Design",
@@ -209,7 +218,7 @@ export const BinaryTrie = {
 	name: "Binary Trie",
 	link: "https://github.com/tansonlee/trie",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/website-images/blob/main/binary-trie.png?raw=true",
 	category: "",
 	description: "An implementation of a binary trie abstract data type.",
 	outcomes: "Functional Programming, Algorithms, Data Structures",
@@ -229,10 +238,98 @@ export const ADTinRAM = {
 	name: "Abstract Data in RAM",
 	link: "https://github.com/tansonlee/adt-in-ram",
 	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+		"https://github.com/tansonlee/website-images/blob/main/adt-in-ram.png?raw=true",
 	category: "",
 	description: "An implementation of data structures in RAM.",
 	outcomes: "Data Abstraction, Functional Programming, Data Structures",
+};
+
+export const MarchingSquares = {
+	name: "Marching Squares",
+	link: "https://github.com/tansonlee/marching-squares",
+	image:
+		"https://github.com/tansonlee/marching-squares/raw/master/assets/marching-squares.gif",
+	category: "",
+	description: "A marching squares algorithm visualization",
+	outcomes: "Perlin Noise, Algorithms, Visualization Techiques",
+};
+
+export const HashTable = {
+	name: "Hash Table",
+	link: "https://github.com/tansonlee/hash-table",
+	image:
+		"https://github.com/tansonlee/website-images/blob/main/hash-table.png?raw=true",
+	category: "",
+	description: "An implementation of a dynamic hash table data structure",
+	outcomes: "Data Structures, Hash Functions, Hash Collisions",
+};
+
+export const DoublePendulum = {
+	name: "Double Pendulum",
+	link: "https://github.com/tansonlee/double-pendulum",
+	image:
+		"https://github.com/tansonlee/double-pendulum/raw/master/gif/double-pendulum2.gif",
+	category: "",
+	description: "A visualization of a double pendulum system",
+	outcomes: "Algorithms, Visualization Techniques",
+};
+
+export const Pong = {
+	name: "Pong",
+	link: "https://github.com/tansonlee/pong",
+	image: "https://github.com/tansonlee/pong/raw/master/assets/game.gif",
+	category: "",
+	description: "An online game of 2-player pong",
+	outcomes: "Object Oriented Programming, UI Design",
+};
+
+export const Snake = {
+	name: "Snake",
+	link: "https://github.com/tansonlee/snake",
+	image: "https://github.com/tansonlee/snake/raw/master/gif/snake2.gif",
+	category: "",
+	description: "An online game of snake.",
+	outcomes: "Game Design",
+};
+
+export const LinearRegression = {
+	name: "Linear Regression",
+	link: "https://github.com/tansonlee/gradient-decent-linear-regression",
+	image:
+		"https://github.com/tansonlee/gradient-decent-linear-regression/raw/master/assets/gradient-decent-linear-regression.gif",
+	category: "",
+	description: "A linear regression model using gradient descent.",
+	outcomes: "Gradient Descent",
+};
+
+export const RayMarching = {
+	name: "Ray Marching",
+	link: "https://github.com/tansonlee/ray-marching",
+	image:
+		"https://github.com/tansonlee/ray-marching/raw/master/assets/both.gif",
+	category: "",
+	description: "A visualization of the ray marching algorithm",
+	outcomes: "Algorithms",
+};
+
+export const RayCasting = {
+	name: "Ray Casting",
+	link: "https://github.com/tansonlee/2D-raycasting",
+	image:
+		"https://github.com/tansonlee/2D-raycasting/raw/master/assets/2D-raycasting.gif",
+	category: "",
+	description: "A visualization of the Ray Casting algorithm.",
+	outcomes: "Algorithms",
+};
+
+export const BarnsleyFern = {
+	name: "Barnsley Fern",
+	link: "https://github.com/tansonlee/barnsley-fern",
+	image:
+		"https://github.com/tansonlee/barnsley-fern/raw/master/gif/barnsley-fern.gif",
+	category: "",
+	description: "A visualization of the Barnsley Fern fractal.",
+	outcomes: "Algorithms",
 };
 
 export const a = {
@@ -244,6 +341,7 @@ export const a = {
 	description: "",
 	outcomes: "",
 };
+
 export const RandomData = {
 	name: "Project Name",
 	link: "https://github.com/tansonlee/",

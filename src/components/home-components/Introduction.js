@@ -13,7 +13,16 @@ const Introduction = () => {
 			<p className="self-description">
 				I'm a Computer Science student at the University of Waterloo. I
 				built this website as an accessible way to showcase some of my
-				projects.
+				projects. This was made with React and the code can be found
+				here:{" "}
+				<a
+					className="inline-link"
+					href="https://github.com/tansonlee/personal-website"
+					rel="noreferrer"
+					target="_blank"
+				>
+					Code
+				</a>
 			</p>
 
 			<div className="media-link-wrapper">

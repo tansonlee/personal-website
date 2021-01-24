@@ -6,10 +6,11 @@ const HomeResume = () => {
 	return (
 		<>
 			<h2 className="resume-header">Resume</h2>
-			<p className="resume-description">
+			{/* <p className="resume-description"> */}
+			<p className="description-text white-border">
 				Link to download my resume here:&nbsp;
 				<a
-					className="link-to-resume"
+					className="inline-link"
 					href={ResumePdf}
 					download="Resume_Tanson_Lee.pdf"
 				>

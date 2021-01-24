@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body {
 	background-color: rgb(4, 14, 31);
 }
@@ -8,4 +10,45 @@ body {
 
 .app-wrapper {
 	margin-bottom: 60px;
+}
+
+.description-text {
+	color: rgba(240, 248, 255, 0.94);
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
+}
+
+.white-border {
+	display: table;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding: 15px 25px;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 22px;
+}
+
+.inline-link {
+	color: coral;
+	font-size: 20px;
+	transition: all 100ms ease;
+}
+
+.inline-link:hover {
+	font-size: 21px;
+	transition: all 100ms ease;
+}
+
+.page-header {
+	display: flex;
+	justify-content: center;
+	color: rgb(255, 255, 255);
+	font-size: 60px;
+	margin: 20px;
+	margin-top: 40px;
+	font-family: "Courier Prime", monospace;
+	font-weight: 200;
 }

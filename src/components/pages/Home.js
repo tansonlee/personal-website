@@ -8,7 +8,7 @@ const Home = () => {
 		<>
 			<Introduction />
 
-			<div className="above-introduction-resume"></div>
+			{/* <div className="above-introduction-resume"></div>
 			<hr className="introduction-resume" />
 			<div className="below-introduction-resume"></div>
 
@@ -18,7 +18,7 @@ const Home = () => {
 			<hr className="introduction-resume" />
 			<div className="below-introduction-resume"></div>
 
-			<HomeResume />
+			<HomeResume /> */}
 		</>
 	);
 };

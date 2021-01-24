@@ -18,9 +18,10 @@ const IntroductionProjects = () => {
 		<>
 			<h2 className="introduction-project-header">Featured Projects</h2>
 			<div className="intro-project-description-wrapper">
-				<p className="introduction-project-description">
+				{/* <p className="introduction-project-description"> */}
+				<p className="description-text white-border">
 					You can find the rest of my projects here: &nbsp;
-					<Link className="introduction-project-link" to="/projects">
+					<Link className="inline-link" to="/projects">
 						All Projects
 					</Link>
 				</p>
