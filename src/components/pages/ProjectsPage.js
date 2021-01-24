@@ -30,7 +30,7 @@ import {
 	RayMarching,
 	RayCasting,
 	BarnsleyFern,
-} from "../../project-data/data";
+} from "../../project-data/ProjectData";
 
 function Projects() {
 	return (

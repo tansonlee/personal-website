@@ -1,0 +1,73 @@
+.experience-wrapper {
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 20px 20px 20px 50px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.experience-info {
+	width: 30%;
+	/* border-right: 3px solid rgba(255, 255, 255, 0.2); */
+}
+
+.experience-date {
+	color: rgba(255, 255, 255, 0.8);
+	font-family: "Lato", sans-serif;
+	word-spacing: 3px;
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.experience-role {
+	color: rgba(255, 255, 255, 0.8);
+	font-family: "Lato", sans-serif;
+	word-spacing: 3px;
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.experience-wrapper > .experience-info > h3 {
+	color: rgba(255, 255, 255, 0.9);
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.experience-description {
+	font-family: "Lato", sans-serif;
+	word-spacing: 3px;
+	font-size: 20px;
+	font-weight: 300;
+	list-style: none;
+	color: rgba(255, 255, 255, 0.8);
+	margin: auto 0;
+	width: 70%;
+}
+
+.experience-description li {
+	margin: 10px;
+	margin-left: 40px;
+}
+
+.experience-description li::before {
+	content: "";
+	background-image: url(../assets/list_style.png);
+	background-size: contain;
+	display: inline-block;
+	width: 0.7em;
+	height: 0.8em;
+	position: relative;
+	top: 0.1rem;
+	margin-right: 0.5rem;
+}
+
+.vertical-line {
+	width: 3px;
+	background-color: grey;
+	border-radius: 5px;
+}
