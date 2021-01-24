@@ -32,6 +32,9 @@ thresholds:
 * 480px
 * 370px
 
+page titles
+
+
 
 featured projects:
 * my machine language

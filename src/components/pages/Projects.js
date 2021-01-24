@@ -38,7 +38,6 @@ function Projects() {
 			<h1 className="page-header">All Projects!</h1>
 
 			<div className="projects-description-wrapper">
-				{/* <p className="projects-description"> */}
 				<p className="description-text white-border">
 					All projects can be found on my GitHub here:{" "}
 					<a

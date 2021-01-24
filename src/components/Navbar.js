@@ -7,7 +7,7 @@ const Navbar = () => {
 		<>
 			<nav className="navbar">
 				<Link className="link big-link" to="/">
-					Tanson Lee
+					&lt;Tanson Lee /&gt;
 				</Link>
 				<div className="link-wrapper">
 					<Link className="link small-link" to="/">
