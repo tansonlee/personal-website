@@ -1,12 +1,11 @@
-import "./HomeResume.css";
+import "./ResumePage.css";
 import ResumeCard from "../ResumeCard";
 import ResumePdf from "../../assets/resume.pdf";
 
-const HomeResume = () => {
+function ResumePage() {
 	return (
 		<>
-			<h2 className="resume-header">Resume</h2>
-			{/* <p className="resume-description"> */}
+			<h1 className="page-header">My Resume!</h1>
 			<p className="description-text white-border">
 				Link to download my resume here:&nbsp;
 				<a
@@ -17,10 +16,9 @@ const HomeResume = () => {
 					Resume
 				</a>
 			</p>
-
 			<ResumeCard />
 		</>
 	);
-};
+}
 
-export default HomeResume;
+export default ResumePage;

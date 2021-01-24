@@ -1,4 +1,4 @@
-import "./Projects.css";
+import "./ProjectsPage.css";
 import ProjectCard from "../ProjectCard";
 import {
 	MachineLanguage,
