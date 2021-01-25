@@ -8,13 +8,13 @@ const Introduction = () => {
 			<h1 className="name">Tanson Lee.</h1>
 			<div className="software-engineer">
 				{" "}
-				&gt; COMPUTER SCIENCE <div id="blinking-cursor"></div>{" "}
+				&gt; Computer Science <div id="blinking-cursor"></div>{" "}
 			</div>
-			<p className="self-description">
-				I'm a Computer Science student at the University of Waterloo. I
-				built this website as an accessible way to showcase some of my
-				projects. This was made with React and the code can be found
-				here:{" "}
+			<div className="languages">
+				| Python | JavaScript | C | R | Racket |
+			</div>
+			<p className="description-text white-border">
+				Code to this website made with React.js here:{" "}
 				<a
 					className="inline-link"
 					href="https://github.com/tansonlee/personal-website"
@@ -34,7 +34,7 @@ const Introduction = () => {
 						href="https://github.com/tansonlee"
 					>
 						<FaGithub />
-						<p className="icon-description">GitHib</p>
+						<p className="icon-description">GitHub</p>
 					</a>
 					<a
 						rel="noreferrer"

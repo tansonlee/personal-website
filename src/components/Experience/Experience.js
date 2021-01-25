@@ -1,6 +1,6 @@
 import "./Experience.css";
-import ExperienceCard from "./ExperienceCard";
-import { Sciex, Tutor, CanadianTire } from "../project-data/ExperienceData";
+import ExperienceCard from "../ExperienceCard/ExperienceCard";
+import { Sciex, Tutor, CanadianTire } from "../../project-data/ExperienceData";
 
 const Experience = () => {
 	return (

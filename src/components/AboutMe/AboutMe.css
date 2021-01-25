@@ -1,0 +1,13 @@
+.self-description {
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
+	margin: 0 auto;
+	width: 60vw;
+	color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+}

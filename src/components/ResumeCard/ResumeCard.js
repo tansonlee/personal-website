@@ -1,5 +1,5 @@
 import "./ResumeCard.css";
-import ResumeImg from "../assets/resume.png";
+import ResumeImg from "../../assets/resume.png";
 
 const ResumeCard = () => {
 	return (

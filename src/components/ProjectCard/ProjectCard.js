@@ -10,7 +10,7 @@ const ProjectCard = ({
 }) => {
 	return (
 		<>
-			<div className="introduction-project-wrapper">
+			<div className="introduction-project-wrapper card-shadow">
 				<h3 className="project-name">{name}</h3>
 				<a
 					rel="noreferrer"

@@ -1,5 +1,5 @@
 import "./ProjectsPage.css";
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "../ProjectCard/ProjectCard";
 import {
 	MachineLanguage,
 	SortingAlgorithms,

@@ -1,7 +1,7 @@
 import "./HomePage.css";
-import Introduction from "../Introduction";
-import Experience from "../Experience";
-import AboutMe from "../AboutMe";
+import Introduction from "../Introduction/Introduction";
+import Experience from "../Experience/Experience";
+import AboutMe from "../AboutMe/AboutMe";
 
 const Home = () => {
 	return (
@@ -10,11 +10,11 @@ const Home = () => {
 
 			<div className="spacing"></div>
 
-			<Experience />
+			<AboutMe />
 
 			<div className="spacing"></div>
 
-			<AboutMe />
+			<Experience />
 		</>
 	);
 };

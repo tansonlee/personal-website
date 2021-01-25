@@ -1,5 +1,5 @@
 import "./ResumePage.css";
-import ResumeCard from "../ResumeCard";
+import ResumeCard from "../ResumeCard/ResumeCard";
 import ResumePdf from "../../assets/resume.pdf";
 
 function ResumePage() {
