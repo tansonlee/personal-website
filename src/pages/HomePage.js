@@ -1,7 +1,7 @@
 import "./HomePage.css";
-import Introduction from "../Introduction/Introduction";
-import Experience from "../Experience/Experience";
-import AboutMe from "../AboutMe/AboutMe";
+import Introduction from "../components/Introduction/Introduction";
+import Experience from "../components/Experience/Experience";
+import AboutMe from "../components/AboutMe/AboutMe";
 
 const Home = () => {
 	return (

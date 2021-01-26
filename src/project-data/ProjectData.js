@@ -38,8 +38,7 @@ export const MachineLanguage = {
 	category: "Functional Programming",
 	description:
 		"I designed and implemented a turing-complete machine language in Python using functional programming techinques.",
-	outcomes:
-		"Computer Design, Machine Languages, Functional Programming, Interpreters",
+	outcomes: "Computer Design | Functional Programming | Modular Design",
 };
 
 export const SortingAlgorithms = {
@@ -50,8 +49,7 @@ export const SortingAlgorithms = {
 	category: "Algorithms",
 	description:
 		"An implementation and time complexity analysis of 6 comparison sort algorithms.",
-	outcomes:
-		"Matplotlib, Data Visualization, Time Complexity Analysis, Sorting Algorithms, Modulation.",
+	outcomes: "Matplotlib | Time Complexity Analysis",
 };
 
 export const LindenmayerSystems = {
@@ -62,7 +60,7 @@ export const LindenmayerSystems = {
 	category: "Algorithms",
 	description:
 		"I rendered over 25 fractals patterns using the Lindenmayer System method.",
-	outcomes: "Algorithms, JSON Data Format, Fractal Patterns.",
+	outcomes: "JSON Data | Fractal Patterns | Algorithms",
 };
 
 export const SudokuSolver = {
@@ -73,8 +71,7 @@ export const SudokuSolver = {
 	category: "Algorithms",
 	description:
 		"An implementation and visualization of a backtracking algorithm that solves Sudokus.",
-	outcomes:
-		"Algorithm Design, Backtracking, Object Oriented Programming, Stacks",
+	outcomes: "Backtracking | Object Oriented P.",
 };
 
 export const Boid = {
@@ -85,7 +82,7 @@ export const Boid = {
 	category: "Simulations",
 	description:
 		"An implementation and visualization of a bird flocking simulation.",
-	outcomes: "Visualization Tools, Object Oriented Programming",
+	outcomes: "Visualization Tools | Object Oriented P.",
 };
 
 export const BST = {
@@ -96,8 +93,7 @@ export const BST = {
 	category: "Abstract Data Types",
 	description:
 		"An implementation of a binary search tree using functional programming techniques.",
-	outcomes:
-		"Data Structures and Algorithms, Functional Programming, First Class Functions, Total Order.",
+	outcomes: "Functional Programs | First Class Functions",
 };
 
 export const FunctionalList = {
@@ -108,7 +104,7 @@ export const FunctionalList = {
 	category: "Functional Programming and Abstract Data Types",
 	description:
 		"Cons cell lists and abstract list functions as they are in functional programming languages like Haskell, Lisp, and Scheme.",
-	outcomes: "Functional Programming, Data Structures and Algorithms.",
+	outcomes: "Functional Programs | Algorithms",
 };
 
 export const ParametricArt = {
@@ -118,19 +114,18 @@ export const ParametricArt = {
 		"https://github.com/tansonlee/parametric-art/raw/main/assets/example.gif",
 	category: "",
 	description: "Designs created using pairs of parametric equations",
-	outcomes: "Parametric Equations, Visualization Techniques",
+	outcomes: "Parametric Equations | Visualization",
 };
 
 export const CollisionSimulator = {
 	name: "Collision Simulator",
 	link: "https://github.com/tansonlee/collision-simulator",
 	image:
-		"https://github.com/tansonlee/collision-simulator/raw/main/assets/collision2.gif",
+		"https://github.com/tansonlee/website-images/blob/main/collision-simulator.gif?raw=true",
 	category: "",
 	description:
 		"Visualizes 1D/2D and elastic/inelastic collisions with an intuitive UI",
-	outcomes:
-		"Designing UI, Object Oriented Programming, Visualization, Simulation.",
+	outcomes: "UI Design | Object Oriented P. | Simulation",
 };
 
 export const RunningApp = {
@@ -141,7 +136,7 @@ export const RunningApp = {
 	category: "",
 	description:
 		"A full stack running app that tracks and stores 4 running metrics.",
-	outcomes: "Node.js, Express, Databases",
+	outcomes: "Full Stack | APIs | Node.js | Express",
 };
 
 export const Minesweeper = {
@@ -151,7 +146,7 @@ export const Minesweeper = {
 		"https://github.com/tansonlee/mine-sweeper/blob/master/assets/gameDark.gif?raw=true",
 	category: "",
 	description: "An online minesweeper game with a light and dark theme.",
-	outcomes: "Object Oriented Programming, Recursive Algorithms",
+	outcomes: "Object Oriented P. | Recursive Algorithms",
 };
 
 export const ChaosGame = {
@@ -161,7 +156,7 @@ export const ChaosGame = {
 		"https://github.com/tansonlee/fractals-with-chaos-game/raw/master/assets/region/pi.gif",
 	category: "",
 	description: "Generated over 10 fractal patterns using the chaos game.",
-	outcomes: "Visualization Techniques, Fractal Generation",
+	outcomes: "Image Processing | Fractal Generation",
 };
 
 export const FlowField = {
@@ -171,7 +166,7 @@ export const FlowField = {
 		"https://github.com/tansonlee/particle-flow-field/raw/master/assets/particle-field.gif",
 	category: "",
 	description: "Simulation of particle paths in a generated field",
-	outcomes: "Perlin Noise, Visualization Techniques",
+	outcomes: "Perlin Noise | Visualization Techniques",
 };
 
 export const TicTacToe = {
@@ -181,7 +176,7 @@ export const TicTacToe = {
 		"https://github.com/tansonlee/tic-tac-toe/raw/master/gif/tic-tac-toe.gif",
 	category: "",
 	description: "An online game of Tic Tac Toe",
-	outcomes: "Web Develpoment, Object Oriented Programming, Grid Layouts",
+	outcomes: "Web Develpoment | Object Oriented P.",
 };
 
 export const GameOfLife = {
@@ -191,7 +186,7 @@ export const GameOfLife = {
 		"https://github.com/tansonlee/game-of-life/raw/main/assets/random.gif",
 	category: "",
 	description: "A simulation of John Conway's Game of Life.",
-	outcomes: "Cellular Automata, Simulations",
+	outcomes: "Cellular Automata | Simulations",
 };
 
 export const RAM = {
@@ -201,7 +196,7 @@ export const RAM = {
 		"https://github.com/tansonlee/website-images/blob/main/RAM.png?raw=true",
 	category: "",
 	description: "An implementation of a RAM abstract data type.",
-	outcomes: "Data Abstraction, Functional Programming, Modular Design",
+	outcomes: "Data Abstraction | Functional Programs | Modular Design",
 };
 
 export const SoundWaves = {
@@ -211,7 +206,7 @@ export const SoundWaves = {
 		"https://github.com/tansonlee/sound-wave-simulator/raw/master/assets/sonic.gif",
 	category: "",
 	description: "A simulation of subsonic, sonic, and supersonic sound waves.",
-	outcomes: "Algorithms, Visulaization, Simulation",
+	outcomes: "Algorithms | Visulaization | Simulation",
 };
 
 export const BinaryTrie = {
@@ -221,7 +216,7 @@ export const BinaryTrie = {
 		"https://github.com/tansonlee/website-images/blob/main/binary-trie.png?raw=true",
 	category: "",
 	description: "An implementation of a binary trie abstract data type.",
-	outcomes: "Functional Programming, Algorithms, Data Structures",
+	outcomes: "Functional Programs | Algorithms",
 };
 
 export const MazeGenerator = {
@@ -231,7 +226,7 @@ export const MazeGenerator = {
 		"https://github.com/tansonlee/maze-generator/raw/master/assets/maze-generator.gif",
 	category: "",
 	description: "A visualization of a maze generating algorithm.",
-	outcomes: "Back Tracking Algorithms, Visualization",
+	outcomes: "Back Tracking | Stacks | Visualization",
 };
 
 export const ADTinRAM = {
@@ -240,8 +235,9 @@ export const ADTinRAM = {
 	image:
 		"https://github.com/tansonlee/website-images/blob/main/adt-in-ram.png?raw=true",
 	category: "",
-	description: "An implementation of data structures in RAM.",
-	outcomes: "Data Abstraction, Functional Programming, Data Structures",
+	description:
+		"An implementation of data structures in RAM which include the array, stack, and queue.",
+	outcomes: "Data Abstraction | Functional Programs",
 };
 
 export const MarchingSquares = {
@@ -251,7 +247,7 @@ export const MarchingSquares = {
 		"https://github.com/tansonlee/marching-squares/raw/master/assets/marching-squares.gif",
 	category: "",
 	description: "A marching squares algorithm visualization",
-	outcomes: "Perlin Noise, Algorithms, Visualization Techiques",
+	outcomes: "Perlin Noise | Algorithms | Visualization",
 };
 
 export const HashTable = {
@@ -261,7 +257,7 @@ export const HashTable = {
 		"https://github.com/tansonlee/website-images/blob/main/hash-table.png?raw=true",
 	category: "",
 	description: "An implementation of a dynamic hash table data structure",
-	outcomes: "Data Structures, Hash Functions, Hash Collisions",
+	outcomes: "Hash Functions | Hash Collisions",
 };
 
 export const DoublePendulum = {
@@ -271,7 +267,7 @@ export const DoublePendulum = {
 		"https://github.com/tansonlee/double-pendulum/raw/master/gif/double-pendulum2.gif",
 	category: "",
 	description: "A visualization of a double pendulum system",
-	outcomes: "Algorithms, Visualization Techniques",
+	outcomes: "Algorithms | Visualization Techniques",
 };
 
 export const Pong = {
@@ -280,7 +276,7 @@ export const Pong = {
 	image: "https://github.com/tansonlee/pong/raw/master/assets/game.gif",
 	category: "",
 	description: "An online game of 2-player pong",
-	outcomes: "Object Oriented Programming, UI Design",
+	outcomes: "Object Oriented P. | UI Design",
 };
 
 export const Snake = {
@@ -309,7 +305,7 @@ export const RayMarching = {
 		"https://github.com/tansonlee/ray-marching/raw/master/assets/both.gif",
 	category: "",
 	description: "A visualization of the ray marching algorithm",
-	outcomes: "Algorithms",
+	outcomes: "Optimization Techniques | Algorithms",
 };
 
 export const RayCasting = {
@@ -319,7 +315,7 @@ export const RayCasting = {
 		"https://github.com/tansonlee/2D-raycasting/raw/master/assets/2D-raycasting.gif",
 	category: "",
 	description: "A visualization of the Ray Casting algorithm.",
-	outcomes: "Algorithms",
+	outcomes: "Optimization Techniques | Algorithms",
 };
 
 export const BarnsleyFern = {

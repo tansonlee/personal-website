@@ -1,5 +1,5 @@
 import "./ProjectsPage.css";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectCard from "../components/ProjectCard/ProjectCard";
 import {
 	MachineLanguage,
 	SortingAlgorithms,
@@ -30,7 +30,7 @@ import {
 	RayMarching,
 	RayCasting,
 	BarnsleyFern,
-} from "../../project-data/ProjectData";
+} from "../project-data/ProjectData";
 
 function Projects() {
 	return (
@@ -56,32 +56,41 @@ function Projects() {
 					<ProjectCard {...Boid} />
 					<ProjectCard {...SudokuSolver} />
 					<ProjectCard {...ChaosGame} />
+
 					<ProjectCard {...MachineLanguage} />
 					<ProjectCard {...SortingAlgorithms} />
 					<ProjectCard {...LindenmayerSystems} />
-					<ProjectCard {...BST} />
-					<ProjectCard {...FunctionalList} />
-					<ProjectCard {...ParametricArt} />
-					<ProjectCard {...CollisionSimulator} />
-					<ProjectCard {...RunningApp} />
-					<ProjectCard {...Minesweeper} />
-					<ProjectCard {...FlowField} />
-					<ProjectCard {...TicTacToe} />
-					<ProjectCard {...GameOfLife} />
-					<ProjectCard {...RAM} />
-					<ProjectCard {...SoundWaves} />
-					<ProjectCard {...BinaryTrie} />
-					<ProjectCard {...MazeGenerator} />
-					<ProjectCard {...ADTinRAM} />
+
 					<ProjectCard {...MarchingSquares} />
-					<ProjectCard {...HashTable} />
-					<ProjectCard {...DoublePendulum} />
 					<ProjectCard {...Pong} />
-					<ProjectCard {...Snake} />
+					<ProjectCard {...CollisionSimulator} />
+
+					<ProjectCard {...BST} />
+					<ProjectCard {...ADTinRAM} />
 					<ProjectCard {...LinearRegression} />
-					<ProjectCard {...RayMarching} />
+
+					<ProjectCard {...Minesweeper} />
+					<ProjectCard {...MazeGenerator} />
+					<ProjectCard {...HashTable} />
+
+					<ProjectCard {...RAM} />
+					<ProjectCard {...RunningApp} />
+					<ProjectCard {...ParametricArt} />
+
+					<ProjectCard {...GameOfLife} />
 					<ProjectCard {...RayCasting} />
+					<ProjectCard {...RayMarching} />
+
+					<ProjectCard {...BinaryTrie} />
+					<ProjectCard {...FunctionalList} />
+					<ProjectCard {...SoundWaves} />
+
+					<ProjectCard {...Snake} />
+					<ProjectCard {...TicTacToe} />
 					<ProjectCard {...BarnsleyFern} />
+
+					<ProjectCard {...DoublePendulum} />
+					<ProjectCard {...FlowField} />
 				</div>
 			</div>
 		</>

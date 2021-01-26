@@ -42,6 +42,7 @@
 	font-size: 16px;
 	transition: all 50ms ease;
 	line-height: 20px;
+	margin-bottom: 5px;
 }
 
 .link-to-project:hover {
@@ -66,23 +67,25 @@
 }
 
 .project-description {
-	margin-top: 30px;
-	font-family: "Roboto", sans-serif;
+	margin-top: 15px;
 	font-family: "Lato", sans-serif;
-	word-spacing: 4px;
+	word-spacing: 3px;
 	font-weight: 300;
-	color: rgba(232, 230, 255, 0.85);
+	color: rgba(255, 255, 255, 0.8);
 	font-size: 18px;
+	/* text-align: center; */
+	padding-left: 5px;
 }
 
 .learning-outcomes {
 	margin-top: 10px;
-	color: rgba(233, 255, 230, 0.85);
-	font-family: "Roboto", sans-serif;
+	color: rgb(51, 251, 12);
 	font-family: "Lato", sans-serif;
-	word-spacing: 4px;
+	word-spacing: 3px;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 16px;
+	text-align: center;
+	width: 105%;
 }
 
 .paragraph-descriptor {
