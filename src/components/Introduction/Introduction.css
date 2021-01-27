@@ -109,7 +109,7 @@
 
 	.software-engineer {
 		font-size: 25px;
-		padding-bottom: 20px;
+		padding-bottom: 40px;
 	}
 
 	.self-description {
@@ -138,6 +138,14 @@
 		width: 10px;
 		height: 20px;
 	}
+
+	.languages {
+		font-size: 24px;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		word-spacing: 6px;
+		margin-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 580px) {
@@ -148,7 +156,7 @@
 
 	.software-engineer {
 		font-size: 20px;
-		padding-bottom: 15px;
+		padding-bottom: 30px;
 	}
 
 	#blinking-cursor {
@@ -175,6 +183,14 @@
 
 	.media-icon:hover {
 		width: 85px;
+	}
+
+	.languages {
+		font-size: 20px;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		word-spacing: 4px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -208,6 +224,14 @@
 
 	.media-icon:hover {
 		width: 75px;
+	}
+
+	.languages {
+		font-size: 16px;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		word-spacing: 3px;
+		margin-bottom: 20px;
 	}
 }
 

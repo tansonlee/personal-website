@@ -57,8 +57,89 @@ body {
 	margin-top: 40px;
 	font-family: "Courier Prime", monospace;
 	font-weight: 200;
+	text-align: center;
 }
 
 .card-shadow {
 	box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 700px) {
+	.page-header {
+		font-size: 50px;
+	}
+
+	.description-text {
+		font-size: 16px;
+		word-spacing: 3px;
+		font-weight: 300;
+	}
+
+	.white-border {
+		font-size: 16px;
+		padding: 12px 22px;
+		line-height: 20px;
+	}
+
+	.inline-link {
+		font-size: 16px;
+	}
+
+	.inline-link:hover {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.page-header {
+		font-size: 40px;
+	}
+
+	.description-text {
+		font-size: 14px;
+		word-spacing: 3px;
+		font-weight: 300;
+	}
+
+	.white-border {
+		font-size: 14px;
+		padding: 10px 16px;
+		line-height: 14px;
+	}
+
+	.inline-link {
+		font-size: 14px;
+	}
+
+	.inline-link:hover {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.page-header {
+		font-size: 35px;
+	}
+
+	.description-text {
+		word-spacing: 3px;
+		font-weight: 300;
+	}
+
+	.white-border {
+		font-size: 12px;
+		padding: 10px 16px;
+		line-height: 14px;
+	}
+
+	.inline-link {
+		font-size: 14px;
+	}
+
+	.inline-link:hover {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
 }

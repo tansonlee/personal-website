@@ -10,7 +10,6 @@
 
 .experience-info {
 	width: 30%;
-	/* border-right: 3px solid rgba(255, 255, 255, 0.2); */
 }
 
 .experience-date {
@@ -69,12 +68,10 @@
 .experience-description li::before {
 	content: "\2022";
 	color: rgb(51, 251, 12);
-	/* font-weight: bold; */
 	font-weight: 500;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
-	/* margin-bottom: 0.2em; */
 }
 
 .vertical-line {
