@@ -75,6 +75,7 @@
 		background-color: rgb(51, 251, 12);
 		margin: 6px;
 		border-radius: 2px;
+		transition: all 200ms ease;
 	}
 
 	.hamburger {
@@ -118,6 +119,23 @@
 		-webkit-clip-path: circle(1000px at 100% 0%);
 		transition: all 500ms ease;
 		pointer-events: all;
+	}
+
+	.ham-open .line1 {
+		transform: rotate(-45deg) translate(-10px, 2px);
+		width: 32px;
+		transition: all 500ms ease;
+	}
+
+	.ham-open .line2 {
+		opacity: 0;
+		transition: all 500ms ease;
+	}
+
+	.ham-open .line3 {
+		transform: rotate(45deg) translate(-10px, -2px);
+		width: 32px;
+		transition: all 500ms ease;
 	}
 }
 

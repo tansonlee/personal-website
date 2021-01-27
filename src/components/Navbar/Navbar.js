@@ -35,12 +35,14 @@ const Navbar = () => {
 					&lt;Tanson Lee /&gt;
 				</Link>
 				<div
-					className="hamburger"
+					className={
+						openHamburger ? "hamburger ham-open" : "hamburger"
+					}
 					onClick={() => setOpenHamburger(!openHamburger)}
 				>
-					<div className="line"></div>
-					<div className="line"></div>
-					<div className="line"></div>
+					<div className="line line1"></div>
+					<div className="line line2"></div>
+					<div className="line line3"></div>
 				</div>
 				<div
 					className={
