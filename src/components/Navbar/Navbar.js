@@ -1,25 +1,106 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { useState } from "react";
 
 const Navbar = () => {
+	const [pages, setPages] = useState({
+		home: true,
+		projects: false,
+		resume: false,
+		contact: false,
+	});
+	const [openHamburger, setOpenHamburger] = useState(false);
+
+	const changePage = page => {
+		const pages = {
+			home: false,
+			projects: false,
+			resume: false,
+			contact: false,
+		};
+		pages[page] = true;
+
+		setPages(pages);
+	};
+
 	return (
 		<>
 			<nav className="navbar">
-				<Link className="link big-link" to="/">
+				<Link
+					onClick={() => changePage("home")}
+					className="link big-link"
+					to="/"
+				>
 					&lt;Tanson Lee /&gt;
 				</Link>
-				<div className="link-wrapper">
-					<Link className="link small-link" to="/">
+				<div
+					className="hamburger"
+					onClick={() => setOpenHamburger(!openHamburger)}
+				>
+					<div className="line"></div>
+					<div className="line"></div>
+					<div className="line"></div>
+				</div>
+				<div
+					className={
+						openHamburger ? "link-wrapper open" : "link-wrapper"
+					}
+				>
+					<Link
+						onClick={() => {
+							changePage("home");
+							setOpenHamburger(false);
+						}}
+						className={
+							pages.home
+								? "link small-link highlight"
+								: "link small-link"
+						}
+						to="/"
+					>
 						Home
 					</Link>
-					<Link className="link small-link" to="/projects">
+					<Link
+						onClick={() => {
+							changePage("projects");
+							setOpenHamburger(false);
+						}}
+						className={
+							pages.projects
+								? "link small-link highlight"
+								: "link small-link"
+						}
+						to="/projects"
+					>
 						Projects
 					</Link>
-					<Link className="link small-link" to="/resume">
+					<Link
+						onClick={() => {
+							changePage("resume");
+							setOpenHamburger(false);
+						}}
+						className={
+							pages.resume
+								? "link small-link highlight"
+								: "link small-link"
+						}
+						to="/resume"
+					>
 						Resume
 					</Link>
-					<Link className="link small-link" to="/contact">
+					<Link
+						onClick={() => {
+							changePage("contact");
+							setOpenHamburger(false);
+						}}
+						className={
+							pages.contact
+								? "link small-link highlight"
+								: "link small-link"
+						}
+						to="/contact"
+					>
 						Contact
 					</Link>
 				</div>

@@ -197,13 +197,12 @@
 @media only screen and (max-width: 480px) {
 	.name {
 		padding-top: 35px;
-		padding-bottom: 30px;
 		font-size: 3em;
 	}
 
 	.software-engineer {
 		font-size: 18px;
-		padding-bottom: 25px;
+		padding-bottom: 30px;
 	}
 
 	.self-description {

@@ -8,7 +8,7 @@ import ContactPage from "./pages/ContactPage";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer/Footer";
 
-function App() {
+const App = () => {
 	return (
 		<>
 			<div className="app-wrapper">
@@ -29,6 +29,6 @@ function App() {
 			</div>
 		</>
 	);
-}
+};
 
 export default App;
