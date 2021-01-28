@@ -19,10 +19,10 @@
 	transition: all 100ms ease;
 }
 
-.introduction-project-wrapper:hover {
+/* .introduction-project-wrapper:hover {
 	transform: scale(1.03);
 	transition: all 100ms ease;
-}
+} */
 
 .project-name {
 	display: flex;

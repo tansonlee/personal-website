@@ -6,8 +6,10 @@ const ExperienceCard = ({ company, date, role, description }) => {
 			<div className="experience-wrapper card-shadow">
 				<div className="experience-info">
 					<h3>{company}</h3>
-					<p className="experience-date">{date}</p>
-					<p className="experience-role">{role}</p>
+					<div className="date-role">
+						<p className="experience-date">{date}</p>
+						<p className="experience-role">{role}</p>
+					</div>
 				</div>
 				<div className="vertical-line"></div>
 				<ul className="experience-description">
