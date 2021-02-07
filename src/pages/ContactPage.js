@@ -1,6 +1,5 @@
 import "./ContactPage.css";
 import emailjs from "emailjs-com";
-import ids from "./Ids";
 
 const Contact = () => {
 	const handleSubmit = e => {
