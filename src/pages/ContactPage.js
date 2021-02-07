@@ -9,7 +9,7 @@ const Contact = () => {
 			// .sendForm(ids.SERVICE_ID, ids.TEMPLATE_ID, e.target, ids.USER_ID)
 			.sendForm(
 				process.env.REACT_APP_SERVICE_ID,
-				process.env.REACT_APP_TEMPLATE_ID,
+				ids.TEMPLATE_ID,
 				e.target,
 				ids.USER_ID
 			)
