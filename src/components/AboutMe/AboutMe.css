@@ -12,6 +12,45 @@
 	border-radius: 8px;
 }
 
+.languages-list {
+	color: white;
+	list-style: none;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.languages-list li {
+	margin-top: 10px;
+}
+
+.technologies-list {
+	color: white;
+	list-style: none;
+}
+
+.skills-languages {
+	background-color: rgba(255, 255, 255, 0.13);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.skills-languages h3 {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.skills-technologies h3 {
+	color: white;
+}
+
+.skills-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+
 @media only screen and (max-width: 900px) {
 	.self-description {
 		width: 80vw;

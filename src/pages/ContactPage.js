@@ -5,7 +5,6 @@ const Contact = () => {
 	const handleSubmit = e => {
 		e.preventDefault(); // Prevents default refresh by the browser
 		emailjs
-			// .sendForm(ids.SERVICE_ID, ids.TEMPLATE_ID, e.target, ids.USER_ID)
 			.sendForm(
 				process.env.REACT_APP_SERVICE_ID,
 				process.env.REACT_APP_TEMPLATE_ID,
