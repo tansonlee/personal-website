@@ -10,9 +10,9 @@ const Introduction = () => {
 				{" "}
 				&gt; Computer Science <div id="blinking-cursor"></div>{" "}
 			</div>
-			<div className="languages">
+			{/* <div className="languages">
 				| Python | JavaScript | C | R | Racket |
-			</div>
+			</div> */}
 			<p className="description-text white-border">
 				Code to this website made with React.js here:{" "}
 				<a

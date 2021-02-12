@@ -1,7 +1,10 @@
 import "./ContactPage.css";
 import emailjs from "emailjs-com";
+import { useState } from "react";
 
 const Contact = () => {
+	const [hasSubmitted, setHasSubmitted] = useState(false);
+
 	const handleSubmit = e => {
 		e.preventDefault(); // Prevents default refresh by the browser
 		emailjs
@@ -28,37 +31,46 @@ const Contact = () => {
 	return (
 		<>
 			<h1 className="page-header">Contact Me!</h1>
-			<form className="form" onSubmit={handleSubmit}>
-				<p>Your Name:</p>
-				<input
-					name="name"
-					type="text"
-					placeholder="name…"
-					className="form__input"
-				/>
-				<p>Your Email:</p>
-				<input
-					name="email"
-					type="text"
-					placeholder="email…"
-					className="form__input"
-				/>
-				<p>Subject:</p>
-				<input
-					name="subject"
-					type="text"
-					placeholder="Subject…"
-					className="form__input"
-				/>
-				<p>Your Message:</p>
-				<textarea
-					name="message"
-					type="text"
-					placeholder="Your Message…"
-					className="form__input-message"
-				></textarea>
-				<button className="form__input — button">Send Message</button>
+			<form className="contact-form" onSubmit={handleSubmit}>
+				<div className="small-input-warpper">
+					<p className="prompt">Your Name:</p>
+					<input
+						name="name"
+						type="text"
+						placeholder="John Smith"
+						className="small-input"
+					/>
+					<p className="prompt">Your Email:</p>
+					<input
+						name="email"
+						type="text"
+						placeholder="email@email.com"
+						className="small-input"
+					/>
+					<p className="prompt">Subject:</p>
+					<input
+						name="subject"
+						type="text"
+						placeholder="Subject . . ."
+						className="small-input"
+					/>
+				</div>
+				<div className="large-input-wrapper">
+					<div>
+						<p className="prompt">Your Message:</p>
+						<textarea
+							name="message"
+							type="text"
+							placeholder="Message . . ."
+							className="large-input"
+						></textarea>
+					</div>
+					<button className="form-submit">Send Message!</button>
+				</div>
 			</form>
+			{hasSubmitted ? (
+				<p className="submitted-message">Thanks for submitting!</p>
+			) : null}
 		</>
 	);
 };

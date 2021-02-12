@@ -1,4 +1,5 @@
 import "./AboutMe.css";
+import SkillData from "../../project-data/SkillData";
 
 const AboutMe = () => {
 	return (
@@ -10,26 +11,25 @@ const AboutMe = () => {
 				projects.
 			</p>
 			<div className="skills-wrapper">
-				<div className="skills-languages">
-					<h3>Languages</h3>
-					<ul className="languages-list">
-						<li>Python</li>
-						<li>JavaScript</li>
-						<li>C</li>
-						<li>R</li>
-						<li>Racket</li>
-					</ul>
-				</div>
-				<div className="skills-technologies">
-					<h3>Technologies</h3>
-					<ul className="technologies-list">
-						<li>React</li>
-						<li>p5.js</li>
-						<li>Vim</li>
-						<li>VSCode</li>
-						<li>github</li>
-					</ul>
-				</div>
+				{SkillData.map(({ topic, items }) => (
+					<div className="skill-card">
+						<h3 className="skill-topic">{topic}</h3>
+						<ul className="skill-list">
+							{items.map(({ item, image }) => (
+								<li className="skill-item">
+									<span className="skill-span">
+										<img
+											src={image}
+											alt={item}
+											className="skill-image"
+										/>
+									</span>
+									<p>{item}</p>
+								</li>
+							))}
+						</ul>
+					</div>
+				))}
 			</div>
 		</>
 	);
