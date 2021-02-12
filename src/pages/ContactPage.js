@@ -35,7 +35,9 @@ const Contact = () => {
 			<form
 				name="contact-form"
 				method="POST"
+				action="POST"
 				netlify
+				data-netlify="true"
 				className="contact-form"
 				onSubmit={handleSubmit}
 			>
@@ -49,6 +51,7 @@ const Contact = () => {
 					/>
 					<p className="prompt">Your Email:</p>
 					<input
+						required
 						name="email"
 						type="text"
 						placeholder="email@email.com"
@@ -66,6 +69,7 @@ const Contact = () => {
 					<div>
 						<p className="prompt">Your Message:</p>
 						<textarea
+							required
 							name="message"
 							type="text"
 							placeholder="Message . . ."
