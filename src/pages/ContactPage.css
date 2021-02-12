@@ -79,14 +79,12 @@ textarea {
 }
 
 .submitted-message {
-	width: 30vw;
-	background-color: rgba(255, 255, 255, 0.15);
-	border: 1px solid rgb(51, 251, 12);
-	border-radius: 5px;
 	padding: 10px;
-	font-size: 18px;
+	font-size: 24px;
 	color: rgba(255, 255, 255, 0.9);
 	word-spacing: 3px;
 	font-weight: 300;
 	margin-bottom: 30px;
+	margin: 0 auto;
+	text-align: center;
 }
