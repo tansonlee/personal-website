@@ -32,7 +32,13 @@ const Contact = () => {
 	return (
 		<>
 			<h1 className="page-header">Contact Me!</h1>
-			<form className="contact-form" onSubmit={handleSubmit}>
+			<form
+				name="contact-form"
+				method="POST"
+				data-netlify="true"
+				className="contact-form"
+				onSubmit={handleSubmit}
+			>
 				<div className="small-input-warpper">
 					<p className="prompt">Your Name:</p>
 					<input
@@ -66,7 +72,9 @@ const Contact = () => {
 							className="large-input"
 						></textarea>
 					</div>
-					<button className="form-submit">Send Message!</button>
+					<button type="submit" className="form-submit">
+						Send Message!
+					</button>
 				</div>
 			</form>
 			{hasSubmitted ? (
