@@ -37,7 +37,7 @@ const Contact = () => {
 				method="POST"
 				data-netlify="true"
 				className="contact-form"
-				onSubmit={handleSubmit}
+				// onSubmit={handleSubmit}
 			>
 				<div className="small-input-warpper">
 					<p className="prompt">Your Name:</p>
