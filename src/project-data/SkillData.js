@@ -1,4 +1,4 @@
-export default [
+const SkillData = [
 	{
 		topic: "Languages",
 		items: [
@@ -60,3 +60,5 @@ export default [
 		],
 	},
 ];
+
+export default SkillData;

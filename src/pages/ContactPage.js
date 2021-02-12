@@ -16,10 +16,11 @@ const Contact = () => {
 			)
 			.then(
 				result => {
-					alert(
-						"Message Sent, I'll get back to you shortly",
-						result.text
-					);
+					// alert(
+					// 	"Message Sent, I'll get back to you shortly",
+					// 	result.text
+					// );
+					setHasSubmitted(true);
 				},
 				error => {
 					alert("An error occured, Plese try again", error.text);
