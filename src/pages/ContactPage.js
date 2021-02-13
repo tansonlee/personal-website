@@ -37,7 +37,6 @@ const Contact = () => {
 				method="POST"
 				action="POST"
 				netlify
-				data-netlify="true"
 				className="contact-form"
 				onSubmit={handleSubmit}
 			>
