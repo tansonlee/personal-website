@@ -28,6 +28,22 @@
 		<title>Tanson Lee</title>
 	</head>
 	<body>
+		<form hidden name="contact-form" netlify data-netlify="true">
+			<div className="small-input-warpper">
+				<p className="prompt">Your Name:</p>
+				<input name="name" type="text" />
+				<p className="prompt">Your Email:</p>
+				<input name="email" type="text" />
+				<p className="prompt">Subject:</p>
+				<input name="subject" type="text" />
+			</div>
+			<div className="large-input-wrapper">
+				<div>
+					<p className="prompt">Your Message:</p>
+					<textarea name="message" type="text"></textarea>
+				</div>
+			</div>
+		</form>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
 		<!--

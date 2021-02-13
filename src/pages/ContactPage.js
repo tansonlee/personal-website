@@ -41,6 +41,7 @@ const Contact = () => {
 				className="contact-form"
 				onSubmit={handleSubmit}
 			>
+				<input type="hidden" name="contact-form" value="contact-form" />
 				<div className="small-input-warpper">
 					<p className="prompt">Your Name:</p>
 					<input
