@@ -2,7 +2,7 @@ import "./ProjectsPage.css";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import { AllProjects } from "../project-data/ProjectData";
 
-function Projects() {
+const Projects = () => {
 	return (
 		<>
 			<h1 className="page-header">All Projects!</h1>
@@ -30,6 +30,6 @@ function Projects() {
 			</div>
 		</>
 	);
-}
+};
 
 export default Projects;
