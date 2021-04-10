@@ -1,5 +1,4 @@
 import "./ContactPage.css";
-import emailjs from "emailjs-com";
 import { useState } from "react";
 import axios from "axios";
 
@@ -12,29 +11,6 @@ const Contact = () => {
 		message: "",
 	});
 
-	// const handleSubmit = e => {
-	// 	e.preventDefault(); // Prevents default refresh by the browser
-	// 	emailjs
-	// 		.sendForm(
-	// 			process.env.REACT_APP_SERVICE_ID,
-	// 			process.env.REACT_APP_TEMPLATE_ID,
-	// 			e.target,
-	// 			process.env.REACT_APP_USER_ID
-	// 		)
-	// 		.then(
-	// 			result => {
-	// 				// alert(
-	// 				// 	"Message Sent, I'll get back to you shortly",
-	// 				// 	result.text
-	// 				// );
-	// 				setHasSubmitted(true);
-	// 			},
-	// 			error => {
-	// 				alert("An error occured, Plese try again", error.text);
-	// 				console.log(error);
-	// 			}
-	// 		);
-	// };
 	const handleSubmit = e => {
 		e.preventDefault(); // Prevents default refresh by the browser
 
@@ -53,6 +29,7 @@ const Contact = () => {
 			},
 			error => {
 				console.log(error);
+				alert("Unable to submit, please try again.");
 			}
 		);
 	};
@@ -60,7 +37,13 @@ const Contact = () => {
 	return (
 		<>
 			<h1 className="page-header">Contact Me!</h1>
-			<form name="contact-form" method="POST" action="POST" className="contact-form" onSubmit={handleSubmit}>
+			<form
+				name="contact-form"
+				method="POST"
+				action="POST"
+				className="contact-form"
+				onSubmit={handleSubmit}
+			>
 				<input type="hidden" name="contact-form" value="contact-form" />
 				<div className="small-input-warpper">
 					<p className="prompt">Your Name:</p>

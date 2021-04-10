@@ -1,28 +1,26 @@
-.self-description {
-	font-family: "Lato", sans-serif;
-	word-spacing: 4px;
-	font-weight: 300;
-	margin: 0 auto;
-	width: 60vw;
-	color: rgba(255, 255, 255, 0.9);
-	text-align: center;
-	padding: 20px;
-	font-size: 20px;
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 8px;
-}
-
+// .skills-wrapper {
+// 	display: flex;
+// 	justify-content: space-around;
+// 	margin-top: 50px;
+// }
 .skills-wrapper {
-	display: flex;
-	justify-content: center;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 2%;
+	margin: 0 auto;
 	margin-top: 50px;
+	// margin-left: 10px;
+	// margin-right: 10px;
+	width: 90vw;
 }
 
 .skill-card {
 	background-color: rgba(255, 255, 255, 0.13);
-	padding: 25px;
+	padding: 20px;
 	border-radius: 10px;
-	margin: 0 3vw;
+	// margin: 0 3vw;
+	// width: 20vw;
 }
 
 .skill-list {
@@ -50,7 +48,7 @@
 
 .skill-topic {
 	color: white;
-	font-size: 35px;
+	font-size: 30px;
 	margin-bottom: 10px;
 	font-weight: 400;
 	font-family: "Courier New", Courier, monospace;

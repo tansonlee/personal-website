@@ -1,6 +1,6 @@
 import "./ProjectsPage.css";
-import ProjectCard from "../components/ProjectCard/ProjectCard";
-import { AllProjects } from "../project-data/ProjectData";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import { AllProjects } from "../../project-data/ProjectData";
 
 const Projects = () => {
 	return (

@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import HomePage from "./pages/HomePage";
-import ProjectsPage from "./pages/ProjectsPage";
-import ResumePage from "./pages/ResumePage";
-import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/HomePage/HomePage";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
+import ResumePage from "./pages/ResumePage/ResumePage";
+import ContactPage from "./pages/ContactPage/ContactPage";
 import ScrollToTop from "./components/ScrollToTop";
 // import Footer from "./components/Footer/Footer";
 

@@ -1,13 +1,10 @@
-import "./AboutMe.css";
+import "./Technologies.css";
 import SkillData from "../../project-data/SkillData";
 
-const AboutMe = () => {
+const Technologies = () => {
 	return (
 		<>
-			<h1 className="page-header">About Me</h1>
-			<p className="self-description card-shadow">
-				I'm a Computer Science student at the University of Waterloo. I built this website as an accessible way to showcase some of my projects.
-			</p>
+			<h2 className="page-header">My Tools</h2>
 			<div className="skills-wrapper">
 				{SkillData.map(({ topic, items }) => (
 					<div key={topic} className="skill-card">
@@ -29,4 +26,4 @@ const AboutMe = () => {
 	);
 };
 
-export default AboutMe;
+export default Technologies;

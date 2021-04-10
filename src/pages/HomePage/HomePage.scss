@@ -1,0 +1,36 @@
+.spacing-100 {
+	margin-top: 100px;
+}
+
+.spacing-200 {
+	margin-top: 200px;
+}
+.spacing-400 {
+	margin-top: 400px;
+}
+
+.home-project-link {
+	display: table;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: white;
+	font-weight: 300;
+	word-spacing: 0.2em;
+	padding: 20px 30px;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 22px;
+
+	p {
+		a {
+			color: coral;
+			transition: all 200ms ease;
+		}
+
+		a:hover {
+			font-size: 32px;
+			transition: all 200ms ease;
+		}
+	}
+}
