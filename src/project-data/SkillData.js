@@ -31,12 +31,12 @@ const SkillData = [
 				image: react,
 			},
 			{
-				item: "SASS",
-				image: sass,
+				item: "Redux",
+				image: redux,
 			},
 			{
-				item: "REST APIs",
-				image: restApis,
+				item: "SASS",
+				image: sass,
 			},
 		],
 	},
@@ -56,8 +56,8 @@ const SkillData = [
 				image: mongodb,
 			},
 			{
-				item: "Redux",
-				image: redux,
+				item: "REST APIs",
+				image: restApis,
 			},
 		],
 	},
