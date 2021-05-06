@@ -1,4 +1,6 @@
 /*
+TrackMe
+Covid Tracker
 Boid
 SudokuSolver
 ChaosGame
@@ -32,13 +34,28 @@ FlowField
 
 export const AllProjects = [
 	{
+		name: "TrackMe - Project Manager",
+		link: "https://github.com/tansonlee/TrackMe",
+		image: "https://github.com/tansonlee/TrackMe/raw/main/example2.png",
+		category: "",
+		description: "A full stack application to track progress on personal projects.",
+		outcomes: "React | Redux | Node | MongoDb | Express",
+	},
+	{
+		name: "COVID-19 Data Tracker",
+		link: "https://github.com/tansonlee/covid19-data-tracker",
+		image: "https://github.com/tansonlee/covid19-data-tracker/raw/main/assets/example.png",
+		category: "",
+		description: "A visualization of COVID-19 data to better track the virus.",
+		outcomes: "React | Chart.js | Visualization",
+	},
+	{
 		name: "Flocking Simulation",
 		link: "https://github.com/tansonlee/flocking-simulation",
 		image:
 			"https://github.com/tansonlee/flocking-simulation/raw/master/assets/flocking-simulation.gif",
-		category: "Simulations",
-		description:
-			"An implementation and visualization of a bird flocking simulation.",
+		category: "",
+		description: "An implementation and visualization of a bird flocking simulation.",
 		outcomes: "Visualization Tools | Object Oriented P.",
 	},
 	{
@@ -73,8 +90,7 @@ export const AllProjects = [
 	{
 		name: "Sorting Algorithms",
 		link: "https://github.com/tansonlee/sorting-algorithms",
-		image:
-			"https://github.com/tansonlee/sorting-algorithms/raw/main/assets/all.png",
+		image: "https://github.com/tansonlee/sorting-algorithms/raw/main/assets/all.png",
 		category: "Algorithms",
 		description:
 			"An implementation and time complexity analysis of 6 comparison sort algorithms.",
@@ -83,11 +99,9 @@ export const AllProjects = [
 	{
 		name: "Lindenmayer Fractals",
 		link: "https://github.com/tansonlee/l-systems",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/l-systems.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/l-systems.png?raw=true",
 		category: "Algorithms",
-		description:
-			"I rendered over 25 fractals patterns using the Lindenmayer System method.",
+		description: "I rendered over 25 fractals patterns using the Lindenmayer System method.",
 		outcomes: "JSON Data | Fractal Patterns | Algorithms",
 	},
 	{
@@ -113,15 +127,13 @@ export const AllProjects = [
 		image:
 			"https://github.com/tansonlee/website-images/blob/main/collision-simulator.gif?raw=true",
 		category: "",
-		description:
-			"Visualizes 1D/2D and elastic/inelastic collisions with an intuitive UI",
+		description: "Visualizes 1D/2D and elastic/inelastic collisions with an intuitive UI",
 		outcomes: "UI Design | Object Oriented P. | Simulation",
 	},
 	{
 		name: "Binary Search Tree",
 		link: "https://github.com/tansonlee/binary-search-tree",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/bst.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/bst.png?raw=true",
 		category: "Abstract Data Types",
 		description:
 			"An implementation of a binary search tree using functional programming techniques.",
@@ -130,8 +142,7 @@ export const AllProjects = [
 	{
 		name: "Abstract Data in RAM",
 		link: "https://github.com/tansonlee/adt-in-ram",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/adt-in-ram.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/adt-in-ram.png?raw=true",
 		category: "",
 		description:
 			"An implementation of data structures in RAM which include the array, stack, and queue.",
@@ -149,8 +160,7 @@ export const AllProjects = [
 	{
 		name: "Minesweeper",
 		link: "https://github.com/tansonlee/mine-sweeper",
-		image:
-			"https://github.com/tansonlee/mine-sweeper/blob/master/assets/gameDark.gif?raw=true",
+		image: "https://github.com/tansonlee/mine-sweeper/blob/master/assets/gameDark.gif?raw=true",
 		category: "",
 		description: "An online minesweeper game with a light and dark theme.",
 		outcomes: "Object Oriented P. | Recursive Algorithms",
@@ -158,8 +168,7 @@ export const AllProjects = [
 	{
 		name: "Maze Generator",
 		link: "https://github.com/tansonlee/maze-generator",
-		image:
-			"https://github.com/tansonlee/maze-generator/raw/master/assets/maze-generator.gif",
+		image: "https://github.com/tansonlee/maze-generator/raw/master/assets/maze-generator.gif",
 		category: "",
 		description: "A visualization of a maze generating algorithm.",
 		outcomes: "Back Tracking | Stacks | Visualization",
@@ -167,8 +176,7 @@ export const AllProjects = [
 	{
 		name: "Hash Table",
 		link: "https://github.com/tansonlee/hash-table",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/hash-table.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/hash-table.png?raw=true",
 		category: "",
 		description: "An implementation of a dynamic hash table data structure",
 		outcomes: "Hash Functions | Hash Collisions",
@@ -176,8 +184,7 @@ export const AllProjects = [
 	{
 		name: "Random Access Memory",
 		link: "https://github.com/tansonlee/ram",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/RAM.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/RAM.png?raw=true",
 		category: "",
 		description: "An implementation of a RAM abstract data type.",
 		outcomes: "Data Abstraction | Functional Programs | Modular Design",
@@ -185,18 +192,15 @@ export const AllProjects = [
 	{
 		name: "Running App",
 		link: "https://github.com/tansonlee/running-app",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/running-app.jpg?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/running-app.jpg?raw=true",
 		category: "",
-		description:
-			"A full stack running app that tracks and stores 4 running metrics.",
+		description: "A full stack running app that tracks and stores 4 running metrics.",
 		outcomes: "Full Stack | APIs | Node.js | Express",
 	},
 	{
 		name: "Parametric Art",
 		link: "https://github.com/tansonlee/parametric-art",
-		image:
-			"https://github.com/tansonlee/parametric-art/raw/main/assets/example.gif",
+		image: "https://github.com/tansonlee/parametric-art/raw/main/assets/example.gif",
 		category: "",
 		description: "Designs created using pairs of parametric equations",
 		outcomes: "Parametric Equations | Visualization",
@@ -204,8 +208,7 @@ export const AllProjects = [
 	{
 		name: "The Game of Life",
 		link: "https://github.com/tansonlee/game-of-life",
-		image:
-			"https://github.com/tansonlee/game-of-life/raw/main/assets/random.gif",
+		image: "https://github.com/tansonlee/game-of-life/raw/main/assets/random.gif",
 		category: "",
 		description: "A simulation of John Conway's Game of Life.",
 		outcomes: "Cellular Automata | Simulations",
@@ -213,8 +216,7 @@ export const AllProjects = [
 	{
 		name: "Ray Casting",
 		link: "https://github.com/tansonlee/2D-raycasting",
-		image:
-			"https://github.com/tansonlee/2D-raycasting/raw/master/assets/2D-raycasting.gif",
+		image: "https://github.com/tansonlee/2D-raycasting/raw/master/assets/2D-raycasting.gif",
 		category: "",
 		description: "A visualization of the Ray Casting algorithm.",
 		outcomes: "Optimization Techniques | Algorithms",
@@ -222,8 +224,7 @@ export const AllProjects = [
 	{
 		name: "Ray Marching",
 		link: "https://github.com/tansonlee/ray-marching",
-		image:
-			"https://github.com/tansonlee/ray-marching/raw/master/assets/both.gif",
+		image: "https://github.com/tansonlee/ray-marching/raw/master/assets/both.gif",
 		category: "",
 		description: "A visualization of the ray marching algorithm",
 		outcomes: "Optimization Techniques | Algorithms",
@@ -231,8 +232,7 @@ export const AllProjects = [
 	{
 		name: "Binary Trie",
 		link: "https://github.com/tansonlee/trie",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/binary-trie.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/binary-trie.png?raw=true",
 		category: "",
 		description: "An implementation of a binary trie abstract data type.",
 		outcomes: "Functional Programs | Algorithms",
@@ -240,8 +240,7 @@ export const AllProjects = [
 	{
 		name: "Functional List",
 		link: "https://github.com/tansonlee/functional-list",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/functional-list.png?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/functional-list.png?raw=true",
 		category: "Functional Programming and Abstract Data Types",
 		description:
 			"Cons cell lists and abstract list functions as they are in functional programming languages like Haskell, Lisp, and Scheme.",
@@ -250,11 +249,9 @@ export const AllProjects = [
 	{
 		name: "Sound Wave Simulator",
 		link: "https://github.com/tansonlee/sound-wave-simulator",
-		image:
-			"https://github.com/tansonlee/sound-wave-simulator/raw/master/assets/sonic.gif",
+		image: "https://github.com/tansonlee/sound-wave-simulator/raw/master/assets/sonic.gif",
 		category: "",
-		description:
-			"A simulation of subsonic, sonic, and supersonic sound waves.",
+		description: "A simulation of subsonic, sonic, and supersonic sound waves.",
 		outcomes: "Algorithms | Visulaization | Simulation",
 	},
 	{
@@ -268,8 +265,7 @@ export const AllProjects = [
 	{
 		name: "Tic Tac Toe",
 		link: "https://github.com/tansonlee/tic-tac-toe",
-		image:
-			"https://github.com/tansonlee/tic-tac-toe/raw/master/gif/tic-tac-toe.gif",
+		image: "https://github.com/tansonlee/tic-tac-toe/raw/master/gif/tic-tac-toe.gif",
 		category: "",
 		description: "An online game of Tic Tac Toe",
 		outcomes: "Web Develpoment | Object Oriented P.",
@@ -277,8 +273,7 @@ export const AllProjects = [
 	{
 		name: "Barnsley Fern",
 		link: "https://github.com/tansonlee/barnsley-fern",
-		image:
-			"https://github.com/tansonlee/barnsley-fern/raw/master/gif/barnsley-fern.gif",
+		image: "https://github.com/tansonlee/barnsley-fern/raw/master/gif/barnsley-fern.gif",
 		category: "",
 		description: "A visualization of the Barnsley Fern fractal.",
 		outcomes: "Algorithms",
@@ -286,8 +281,7 @@ export const AllProjects = [
 	{
 		name: "Double Pendulum",
 		link: "https://github.com/tansonlee/double-pendulum",
-		image:
-			"https://github.com/tansonlee/double-pendulum/raw/master/gif/double-pendulum2.gif",
+		image: "https://github.com/tansonlee/double-pendulum/raw/master/gif/double-pendulum2.gif",
 		category: "",
 		description: "A visualization of a double pendulum system",
 		outcomes: "Algorithms | Visualization Techniques",
@@ -322,6 +316,5 @@ export const RandomData = {
 	category: "Category goes here",
 	description:
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi cumque quis reprehenderit nesciunt corporis.",
-	outcomes:
-		"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, eaque!",
+	outcomes: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, eaque!",
 };
