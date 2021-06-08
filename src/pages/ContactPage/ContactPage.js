@@ -20,7 +20,7 @@ const Contact = () => {
 			url: "https://tansonlee-emailer.herokuapp.com/",
 			data: {
 				subject: formData.subject,
-				body: `NAME: ${formData.name}\nSUBJECT: ${formData.subject}\nEMAIL: ${formData.name}\n\nMESSAGE:\n${formData.message}`,
+				body: `NAME: ${formData.name}\nSUBJECT: ${formData.subject}\nEMAIL: ${formData.email}\n\nMESSAGE:\n${formData.message}`,
 			},
 		}).then(
 			response => {
