@@ -1,10 +1,10 @@
 /*
 TrackMe
+MachineLanguage
 Covid Tracker
 Boid
 SudokuSolver
 ChaosGame
-MachineLanguage
 SortingAlgorithms
 LindenmayerSystems
 MarchingSquares
@@ -42,6 +42,15 @@ export const AllProjects = [
 		outcomes: "React | Redux | Node | MongoDb | Express",
 	},
 	{
+		name: "My Machine Language",
+		link: "https://github.com/tansonlee/machine-language",
+		image: "https://github.com/tansonlee/website-images/blob/main/my-machine-language.png?raw=true",
+		category: "Functional Programming",
+		description:
+			"I designed and implemented a turing-complete machine language in Python using functional programming techinques.",
+		outcomes: "Computer Design | Functional Programming | Modular Design",
+	},
+	{
 		name: "COVID-19 Data Tracker",
 		link: "https://github.com/tansonlee/covid19-data-tracker",
 		image: "https://github.com/tansonlee/covid19-data-tracker/raw/main/assets/example.png",
@@ -52,8 +61,7 @@ export const AllProjects = [
 	{
 		name: "Flocking Simulation",
 		link: "https://github.com/tansonlee/flocking-simulation",
-		image:
-			"https://github.com/tansonlee/flocking-simulation/raw/master/assets/flocking-simulation.gif",
+		image: "https://github.com/tansonlee/flocking-simulation/raw/master/assets/flocking-simulation.gif",
 		category: "",
 		description: "An implementation and visualization of a bird flocking simulation.",
 		outcomes: "Visualization Tools | Object Oriented P.",
@@ -61,8 +69,7 @@ export const AllProjects = [
 	{
 		name: "Sudoku Solver",
 		link: "https://github.com/tansonlee/sudoku-solver",
-		image:
-			"https://github.com/tansonlee/sudoku-solver/raw/master/assets/sudoku-solver-hard.gif",
+		image: "https://github.com/tansonlee/sudoku-solver/raw/master/assets/sudoku-solver-hard.gif",
 		category: "Algorithms",
 		description:
 			"An implementation and visualization of a backtracking algorithm that solves Sudokus.",
@@ -71,21 +78,10 @@ export const AllProjects = [
 	{
 		name: "Chaos Game Fractals",
 		link: "https://github.com/tansonlee/mine-sweeper",
-		image:
-			"https://github.com/tansonlee/fractals-with-chaos-game/raw/master/assets/region/pi.gif",
+		image: "https://github.com/tansonlee/fractals-with-chaos-game/raw/master/assets/region/pi.gif",
 		category: "",
 		description: "Generated over 10 fractal patterns using the chaos game.",
 		outcomes: "Image Processing | Fractal Generation",
-	},
-	{
-		name: "My Machine Language",
-		link: "https://github.com/tansonlee/machine-language",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/my-machine-language.png?raw=true",
-		category: "Functional Programming",
-		description:
-			"I designed and implemented a turing-complete machine language in Python using functional programming techinques.",
-		outcomes: "Computer Design | Functional Programming | Modular Design",
 	},
 	{
 		name: "Sorting Algorithms",
@@ -107,8 +103,7 @@ export const AllProjects = [
 	{
 		name: "Marching Squares",
 		link: "https://github.com/tansonlee/marching-squares",
-		image:
-			"https://github.com/tansonlee/marching-squares/raw/master/assets/marching-squares.gif",
+		image: "https://github.com/tansonlee/marching-squares/raw/master/assets/marching-squares.gif",
 		category: "",
 		description: "A marching squares algorithm visualization",
 		outcomes: "Perlin Noise | Algorithms | Visualization",
@@ -124,8 +119,7 @@ export const AllProjects = [
 	{
 		name: "Collision Simulator",
 		link: "https://github.com/tansonlee/collision-simulator",
-		image:
-			"https://github.com/tansonlee/website-images/blob/main/collision-simulator.gif?raw=true",
+		image: "https://github.com/tansonlee/website-images/blob/main/collision-simulator.gif?raw=true",
 		category: "",
 		description: "Visualizes 1D/2D and elastic/inelastic collisions with an intuitive UI",
 		outcomes: "UI Design | Object Oriented P. | Simulation",
@@ -151,8 +145,7 @@ export const AllProjects = [
 	{
 		name: "Linear Regression",
 		link: "https://github.com/tansonlee/gradient-decent-linear-regression",
-		image:
-			"https://github.com/tansonlee/gradient-decent-linear-regression/raw/master/assets/gradient-decent-linear-regression.gif",
+		image: "https://github.com/tansonlee/gradient-decent-linear-regression/raw/master/assets/gradient-decent-linear-regression.gif",
 		category: "",
 		description: "A linear regression model using gradient descent.",
 		outcomes: "Gradient Descent",
@@ -289,8 +282,7 @@ export const AllProjects = [
 	{
 		name: "Particle Flow Field",
 		link: "https://github.com/tansonlee/particle-flow-field",
-		image:
-			"https://github.com/tansonlee/particle-flow-field/raw/master/assets/particle-field.gif",
+		image: "https://github.com/tansonlee/particle-flow-field/raw/master/assets/particle-field.gif",
 		category: "",
 		description: "Simulation of particle paths in a generated field",
 		outcomes: "Perlin Noise | Visualization Techniques",
@@ -301,8 +293,7 @@ export const AllProjects = [
 export const a = {
 	name: "",
 	link: "https://github.com/tansonlee/machine-language",
-	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+	image: "https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
 	category: "",
 	description: "",
 	outcomes: "",
@@ -311,8 +302,7 @@ export const a = {
 export const RandomData = {
 	name: "Project Name",
 	link: "https://github.com/tansonlee/",
-	image:
-		"https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
+	image: "https://biomedicalodyssey.blogs.hopkinsmedicine.org/files/2020/02/programming-code-window-GettyImages-1124838925_640.jpg",
 	category: "Category goes here",
 	description:
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi cumque quis reprehenderit nesciunt corporis.",

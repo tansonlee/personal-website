@@ -6,8 +6,8 @@ const Footer = () => {
 	return (
 		<>
 			<div className="footer-wrapper">
-				<h3 className="footer-name">Tanson Lee</h3>
-				<div className="footer-links">
+				<h3 className="footer-content">Created from scratch by Tanson Lee</h3>
+				{/* <div className="footer-links">
 					<Link className="footer-link" to="/">
 						Home
 					</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
 					<Link className="footer-link" to="/contact">
 						Contact
 					</Link>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);

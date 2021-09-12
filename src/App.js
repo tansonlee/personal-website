@@ -6,7 +6,7 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import ResumePage from "./pages/ResumePage/ResumePage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import ScrollToTop from "./components/ScrollToTop";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
 	return (
@@ -24,7 +24,7 @@ const App = () => {
 						</Switch>
 					</ScrollToTop>
 
-					{/* <Footer /> */}
+					<Footer />
 				</Router>
 			</div>
 		</>

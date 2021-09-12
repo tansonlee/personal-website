@@ -12,7 +12,7 @@ export const Sciex = {
 export const Tutor = {
 	company: "Tutor",
 	date: "March 2019 - Present",
-	role: "Computer Science, Math, Chemistry",
+	role: "Computer Science, Math, Physics, Chemistry",
 	description: [
 		"Helped clients understand fundamental concepts",
 		"Used clear examples to tend to individual learning styles",

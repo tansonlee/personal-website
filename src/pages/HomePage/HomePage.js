@@ -21,7 +21,7 @@ const Home = () => {
 					Check out my projects: <Link to="/projects">Projects</Link>
 				</p>
 			</div>
-			<div className="spacing-400"></div>
+			<div className="spacing-100"></div>
 		</>
 	);
 };

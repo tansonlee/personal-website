@@ -1,4 +1,11 @@
 .footer-wrapper {
-	background-color: rgba(255, 255, 255, 0.201);
-	margin-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.footer-content {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-weight: 300;
+	font-size: 24px;
 }

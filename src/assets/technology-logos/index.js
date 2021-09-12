@@ -13,6 +13,11 @@ import node from "./node.svg";
 import express from "./express.png";
 import mongodb from "./mongodb.png";
 import redux from "./redux.svg";
+import postgres from "./postgres.png";
+import linux from "./linux.png";
+import cpp from "./cpp.png";
+import bash from "./bash.png";
+import stackOverflow from "./stack_overflow.png";
 
 const logos = {
 	c,
@@ -30,6 +35,11 @@ const logos = {
 	express,
 	mongodb,
 	redux,
+	postgres,
+	linux,
+	cpp,
+	bash,
+	stackOverflow,
 };
 
 export default logos;

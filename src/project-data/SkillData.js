@@ -16,94 +16,104 @@ const {
 	express,
 	mongodb,
 	redux,
+	postgres,
+	cpp,
+	bash,
+	linux,
+	stackOverflow,
 } = logos;
 
-const SkillData = [
-	{
-		topic: "Frontend",
-		items: [
-			{
-				item: "JavaScript",
-				image: javascript,
-			},
-			{
-				item: "React",
-				image: react,
-			},
-			{
-				item: "Redux",
-				image: redux,
-			},
-			{
-				item: "SASS",
-				image: sass,
-			},
-		],
-	},
-	{
-		topic: "Backend",
-		items: [
-			{
-				item: "Node.js",
-				image: node,
-			},
-			{
-				item: "Express",
-				image: express,
-			},
-			{
-				item: "MongoDB",
-				image: mongodb,
-			},
-			{
-				item: "REST APIs",
-				image: restApis,
-			},
-		],
-	},
-	{
-		topic: "Languages",
-		items: [
-			{
-				item: "Python",
-				image: python,
-			},
-			{
-				item: "C",
-				image: c,
-			},
-			{
-				item: "R",
-				image: r,
-			},
-			{
-				item: "Racket",
-				image: racket,
-			},
-		],
-	},
-	{
-		topic: "Technologies",
-		items: [
-			{
-				item: "GitHub",
-				image: github,
-			},
-			{
-				item: "Linux",
-				image: python,
-			},
-			{
-				item: "Vim",
-				image: vim,
-			},
-			{
-				item: "VSCode",
-				image: vscode,
-			},
-		],
-	},
-];
+const frontend = {
+	topic: "Frontend",
+	items: [
+		{
+			item: "JavaScript",
+			image: javascript,
+		},
+		{
+			item: "React",
+			image: react,
+		},
+		{
+			item: "Redux",
+			image: redux,
+		},
+		{
+			item: "SASS",
+			image: sass,
+		},
+	],
+};
+
+const backend = {
+	topic: "Backend",
+	items: [
+		{
+			item: "Node.js",
+			image: node,
+		},
+		{
+			item: "Express",
+			image: express,
+		},
+		{
+			item: "PostgreSQL",
+			image: postgres,
+		},
+		{
+			item: "REST APIs",
+			image: restApis,
+		},
+	],
+};
+
+const languages = {
+	topic: "Languages",
+	items: [
+		{
+			item: "Python",
+			image: python,
+		},
+		{
+			item: "C++",
+			image: cpp,
+		},
+		{
+			item: "C",
+			image: c,
+		},
+		{
+			item: "Bash",
+			image: bash,
+		},
+	],
+};
+
+const tools = {
+	topic: "Tools",
+	items: [
+		{
+			item: "GitHub",
+			image: github,
+		},
+		{
+			item: "Vim",
+			image: vim,
+		},
+		{
+			item: "VSCode",
+			image: vscode,
+		},
+		{
+			item: "Stack Overflow",
+			image: stackOverflow,
+		},
+	],
+};
+
+const skillData = [frontend, backend, languages, tools];
+
+export default skillData;
 
 /*
 const SkillData = [
@@ -206,4 +216,3 @@ const SkillData = [
 	},
 ];
 */
-export default SkillData;
