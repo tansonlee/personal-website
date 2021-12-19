@@ -40,7 +40,7 @@ const Introduction = () => {
 						rel="noreferrer"
 						target="_blank"
 						className="media-link"
-						href="https://linkedin.com/in/tanson-lee"
+						href="https://linkedin.com/in/tansonlee"
 					>
 						<FaLinkedin />
 						<p className="icon-description">LinkedIn</p>

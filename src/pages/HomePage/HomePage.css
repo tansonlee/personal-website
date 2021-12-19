@@ -14,11 +14,11 @@
   display: table;
   margin: 10px auto;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 22px;
   color: white;
   font-weight: 300;
   word-spacing: 0.2em;
-  padding: 20px 30px;
+  padding: 15px 25px;
   border: 1px solid white;
   border-radius: 5px;
   line-height: 22px;
@@ -31,7 +31,7 @@
 }
 
 .home-project-link p a:hover {
-  font-size: 32px;
+  font-size: 28px;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }

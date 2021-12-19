@@ -1,0 +1,32 @@
+.track-me-image {
+	width: 40%;
+}
+
+.track-me-wrapper {
+	margin: 50px;
+	display: flex;
+}
+
+.track-me-link-wrapper {
+	display: flex;
+}
+
+.track-me-link {
+	margin-right: 20px;
+}
+
+.track-me-content-wrapper {
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+	.track-me-wrapper {
+		flex-direction: column;
+	}
+	.track-me-image {
+		width: 100%;
+	}
+	.track-me-content-wrapper {
+		margin-left: 0px;
+	}
+}

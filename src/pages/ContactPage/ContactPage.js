@@ -10,9 +10,45 @@ const Contact = () => {
 		subject: "",
 		message: "",
 	});
+	const [formValid, setFormValid] = useState({
+		name: true,
+		email: true,
+		subject: true,
+		message: true,
+	});
 
 	const handleSubmit = e => {
 		e.preventDefault(); // Prevents default refresh by the browser
+
+		// Check if all fields are valid
+		let valid = true;
+		const newFormValid = { ...formValid };
+		if (formData.name === "") {
+			newFormValid.name = false;
+			console.log("Name is invalid");
+			valid = false;
+		}
+		if (formData.email === "") {
+			newFormValid.email = false;
+			console.log("Email is invalid");
+			valid = false;
+		}
+		if (formData.subject === "") {
+			newFormValid.subject = false;
+			console.log("Subject is invalid");
+			valid = false;
+		}
+		if (formData.message === "") {
+			newFormValid.message = false;
+			console.log("Message is invalid");
+			valid = false;
+		}
+
+		setFormValid(newFormValid);
+
+		if (!valid) {
+			return;
+		}
 
 		console.log(formData);
 		axios({
@@ -26,6 +62,12 @@ const Contact = () => {
 			response => {
 				setHasSubmitted(true);
 				console.log(response);
+				setFormData({
+					name: "",
+					email: "",
+					subject: "",
+					message: "",
+				});
 			},
 			error => {
 				console.log(error);
@@ -45,43 +87,65 @@ const Contact = () => {
 				onSubmit={handleSubmit}
 			>
 				<input type="hidden" name="contact-form" value="contact-form" />
-				<div className="small-input-warpper">
-					<p className="prompt">Your Name:</p>
+				<div className="small-input-wrapper">
+					<p className="prompt">
+						Your Name <span className="required-star">*</span>
+					</p>
 					<input
 						name="name"
 						type="text"
+						value={formData.name}
 						placeholder="John Smith"
-						className="small-input"
-						onChange={e => setFormData({ ...formData, name: e.target.value })}
+						className={"small-input" + (formValid.name ? "" : " invalid-field")}
+						onChange={e => {
+							setFormData({ ...formData, name: e.target.value });
+							setFormValid({ ...formValid, name: true });
+						}}
 					/>
-					<p className="prompt">Your Email:</p>
+					<p className="prompt">
+						Your Email <span className="required-star">*</span>
+					</p>
 					<input
-						required
 						name="email"
 						type="text"
+						value={formData.email}
 						placeholder="email@email.com"
-						className="small-input"
-						onChange={e => setFormData({ ...formData, email: e.target.value })}
+						className={`small-input ${formValid.email ? "" : "invalid-field"}`}
+						onChange={e => {
+							setFormValid({ ...formValid, email: true });
+							setFormData({ ...formData, email: e.target.value });
+						}}
 					/>
-					<p className="prompt">Subject:</p>
+					<p className="prompt">
+						Subject <span className="required-star">*</span>
+					</p>
 					<input
 						name="subject"
 						type="text"
+						value={formData.subject}
 						placeholder="Subject . . ."
-						className="small-input"
-						onChange={e => setFormData({ ...formData, subject: e.target.value })}
+						className={`small-input ${formValid.subject ? "" : "invalid-field"}`}
+						onChange={e => {
+							setFormData({ ...formData, subject: e.target.value });
+							setFormValid({ ...formValid, subject: true });
+						}}
 					/>
 				</div>
-				<div className="large-input-wrapper">
-					<div>
-						<p className="prompt">Your Message:</p>
+				<div className="form-right-wrapper">
+					<div className="large-input-wrapper">
+						<p className="prompt">
+							Your Message <span className="required-star">*</span>
+						</p>
 						<textarea
-							required
 							name="message"
 							type="text"
+							value={formData.message}
 							placeholder="Message . . ."
-							className="large-input"
-							onChange={e => setFormData({ ...formData, message: e.target.value })}
+							className={`large-input ${formValid.message ? "" : "invalid-field"}`}
+							onChange={e => {
+								setFormData({ ...formData, message: e.target.value });
+								setFormValid({ ...formValid, message: true });
+							}}
 						></textarea>
 					</div>
 					<button type="submit" className="form-submit">

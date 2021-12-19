@@ -1,19 +1,15 @@
 .contact-form {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .small-input-wrapper {
-	margin-right: 30px;
+	width: 30vw;
 }
 
 .large-input-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	margin-left: 30px;
+	width: 30vw;
 }
 
 input,
@@ -43,15 +39,20 @@ textarea {
 	color: white;
 	word-spacing: 3px;
 	font-weight: 300;
+	text-align: left;
 }
 
 .small-input {
-	width: 30vw;
+	width: 100%;
 }
 
 .large-input {
-	width: 30vw;
+	width: 100%;
 	min-height: 8em;
+}
+
+.invalid-field {
+	border-color: rgb(255, 0, 0);
 }
 
 .form-submit {
@@ -87,4 +88,38 @@ textarea {
 	margin-bottom: 30px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.required-star {
+	color: red;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+	.small-input-wrapper {
+		width: 35vw;
+	}
+
+	.large-input-wrapper {
+		width: 35vw;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.contact-form {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.small-input-wrapper {
+		width: 80vw;
+	}
+
+	.large-input-wrapper {
+		width: 80vw;
+	}
+
+	.form-right-wrapper {
+		text-align: center;
+	}
 }

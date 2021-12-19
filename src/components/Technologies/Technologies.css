@@ -4,8 +4,11 @@
   width: 100%;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   -webkit-column-gap: 2%;
           column-gap: 2%;
+  row-gap: 2%;
   margin: 0 auto;
   margin-top: 50px;
   width: 90vw;

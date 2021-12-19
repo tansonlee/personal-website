@@ -1,0 +1,132 @@
+.py-script-wrapper {
+	margin: 50px;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family: "Courier Prime", monospace;
+	font-size: 1em;
+}
+
+.code-block-header {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.code-code {
+	font-family: "Courier Prime", monospace;
+}
+
+.py-script-code-blocks {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 30px;
+	font-family: "Courier Prime", monospace;
+}
+
+.code-block {
+	font-family: "Courier Prime", monospace;
+	color: rgb(206, 206, 206);
+	padding: 15px 20px;
+	background-color: rgba(0, 0, 0, 0.208);
+	border: 1px solid #000;
+	font-size: 12px;
+}
+
+.code-sections {
+	font-family: "Courier Prime", monospace;
+	color: rgb(255, 241, 88);
+}
+
+.code-keyword {
+	font-family: "Courier Prime", monospace;
+	color: rgb(91, 174, 237);
+}
+
+.code-variable {
+	font-family: "Courier Prime", monospace;
+	color: rgb(112, 181, 116);
+}
+
+.py-script-description-wrapper {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 20px;
+}
+
+.project-description-short {
+	display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+	.code-block-assembled {
+		display: none;
+	}
+	.py-script-code-blocks {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.py-script-description-wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.code-block-assembled {
+		display: none;
+	}
+
+	.code-block-compiled {
+		display: none;
+	}
+
+	.py-script-code-blocks {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.py-script-wrapper {
+		margin: 20px;
+	}
+
+	.track-me-wrapper {
+		margin: 20px;
+	}
+
+	.project-description-short {
+		display: block;
+	}
+
+	.project-description-long {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.py-script-description-wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.code-block-assembled {
+		display: none;
+	}
+
+	.code-block-compiled {
+		display: none;
+	}
+
+	.code-block-output {
+		display: none;
+	}
+
+	.py-script-code-blocks {
+		grid-template-columns: 1fr;
+	}
+}

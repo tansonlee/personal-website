@@ -1,6 +1,8 @@
 import "./ProjectsPage.css";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { AllProjects } from "../../project-data/ProjectData";
+import TrackMe from "./TrackMe/TrackMe";
+import PyScript from "./PyScript/PyScript";
 
 const Projects = () => {
 	return (
@@ -20,6 +22,9 @@ const Projects = () => {
 					</a>
 				</p>
 			</div>
+
+			<PyScript />
+			<TrackMe />
 
 			<div className="projects-project-card-wrapper-wrapper">
 				<div className="projects-project-card-wrapper">

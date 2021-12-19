@@ -92,6 +92,11 @@
 	text-decoration: underline;
 }
 
+.project-link-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 /* @media screen and (max-width: 900px) {
 	.project-image {
 		width: 36vw;
