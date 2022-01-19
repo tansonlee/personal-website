@@ -10,8 +10,8 @@ const Technologies = () => {
 					<div key={topic} className="skill-card">
 						<h3 className="skill-topic">{topic}</h3>
 						<ul className="skill-list">
-							{items.map(({ item, image }) => (
-								<li className="skill-item">
+							{items.map(({ item, image }, i) => (
+								<li key={i} className="skill-item">
 									<span className="skill-span">
 										<img src={image} alt={item} className="skill-image" />
 									</span>

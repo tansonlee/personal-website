@@ -3,6 +3,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { AllProjects } from "../../project-data/ProjectData";
 import TrackMe from "./TrackMe/TrackMe";
 import PyScript from "./PyScript/PyScript";
+import Fooder from "./Fooder/Fooder";
 
 const Projects = () => {
 	return (
@@ -24,12 +25,13 @@ const Projects = () => {
 			</div>
 
 			<PyScript />
+			<Fooder />
 			<TrackMe />
 
 			<div className="projects-project-card-wrapper-wrapper">
 				<div className="projects-project-card-wrapper">
-					{AllProjects.map(project => (
-						<ProjectCard {...project} />
+					{AllProjects.map((project, i) => (
+						<ProjectCard key={i} {...project} />
 					))}
 				</div>
 			</div>

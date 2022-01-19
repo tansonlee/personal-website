@@ -4,6 +4,7 @@ import axios from "axios";
 
 const Contact = () => {
 	const [hasSubmitted, setHasSubmitted] = useState(false);
+	const [loadingSubmission, setLoadingSubmission] = useState(false);
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
@@ -19,6 +20,7 @@ const Contact = () => {
 
 	const handleSubmit = e => {
 		e.preventDefault(); // Prevents default refresh by the browser
+		setLoadingSubmission(true);
 
 		// Check if all fields are valid
 		let valid = true;
@@ -47,6 +49,7 @@ const Contact = () => {
 		setFormValid(newFormValid);
 
 		if (!valid) {
+			setLoadingSubmission(false);
 			return;
 		}
 
@@ -61,6 +64,7 @@ const Contact = () => {
 		}).then(
 			response => {
 				setHasSubmitted(true);
+				setLoadingSubmission(false);
 				console.log(response);
 				setFormData({
 					name: "",
@@ -148,12 +152,23 @@ const Contact = () => {
 							}}
 						></textarea>
 					</div>
-					<button type="submit" className="form-submit">
+					<button
+						type="submit"
+						className="form-submit"
+						style={{
+							cursor: loadingSubmission ? "wait" : "pointer",
+							color: loadingSubmission
+								? "rgba(255, 255, 255, 0.6)"
+								: "rgba(255, 255, 255, 0.9)",
+						}}
+						disabled={loadingSubmission}
+					>
 						Send Message!
 					</button>
 				</div>
 			</form>
 			{hasSubmitted ? <p className="submitted-message">Thanks for submitting!</p> : null}
+			{loadingSubmission ? <p className="submitted-message">Submitting...</p> : null}
 		</>
 	);
 };
