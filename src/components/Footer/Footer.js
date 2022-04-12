@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<>
 			<div className="footer-wrapper">
-				<h3 className="footer-content">Created from scratch by Tanson Lee</h3>
+				<h3 className="footer-content">Made with ❤️ by Tanson Lee</h3>
 				{/* <div className="footer-links">
 					<Link className="footer-link" to="/">
 						Home
